@@ -1,0 +1,281 @@
+/* = Sticky Header 
+=============================================================================================== */
+.header--fixed {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    position: absolute;
+}
+.headroom-sticky-header.header--fixed {
+    position: fixed;
+}
+.admin-bar .header--fixed {
+    top: 32px;
+    @media screen and (max-width: 782px) {
+        top: 46px;  
+    }
+}
+.admin-bar.mn-top {
+    .header--fixed {
+        @media screen and (max-width: 600px) {
+            top: 0; 
+        }
+    }
+}
+.headroom {
+    will-change: transform;
+    transition: transform .25s ease-in-out;
+}
+
+.headroom--pinned {
+    transform: translateY(0);
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.headroom--pinned.headroom--top {
+    box-shadow: none;
+}
+.headroom--unpinned {
+    transform: translateY(-100%)
+}
+.header-height-fixed {
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    @media screen and (max-width: 1024px) {
+        height: 75px;
+    }
+}
+.header-height-fixed.header-style-2 {
+    @media screen and (min-width: 1025px) {
+        height: 140px;
+    }
+}
+
+/* = Booking Plugin
+=============================================================================================== */
+.rtcl-booking-confirmation-form-wrapper {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: 1px solid #E6E6E6;
+}
+.rtcl-booking-confirmation-wrapper {
+    border-radius: 12px;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.rtcl-booking-confirmation-wrapper .rtcl-booking-confirmation-form button.btn {
+    margin-top: 15px;
+}
+.rtcl-booking-confirmation-wrapper .rtcl-booking-confirmation-form button.btn:focus {
+    box-shadow: none;
+}
+
+/* = Marketplace Plugin
+=============================================================================================== */
+.rtcl-listings .rtcl-add-to-cart-form input[type=submit] {
+    width: 100%;
+    padding: 12px 20px !important;
+}
+
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form input:focus,
+.rtcl-listings .rtcl-add-to-cart-form input[type=submit]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.single-rtcl_listing.rtcl-marketplace .rtcl-add-to-cart-form input {
+    font-size: 14px !important;
+    padding: 9px 20px !important;
+    border-radius: 6px !important;
+}
+
+/* = Elementor Builder
+=============================================================================================== */
+.rtcl_builder-template .rtcl-widget-search-sortable-vertical .form-group {
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.rtcl_builder-template .rtcl-widget-search-sortable input[type=text],
+.rtcl_builder-template .rtcl-widget-search-sortable select {
+    background-color: #EEECFB;
+}
+.rtcl_builder-template .rtcl-widget-search-form .keywords-field-wrapper,
+.rtcl_builder-template .rtcl-widget-search-form .rtcl-search-type {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rtcl_builder-template .rtcl-widget-search-sortable-vertical .form-group.ws-button {
+    border: none;
+}
+.rtcl_builder-template .rtcl .rtcl-grid-view .rtcl-listing-meta-data li i {
+    margin-right: 5px;
+}
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-3-view .listing-thumb .item-price,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-4-view .listing-thumb .item-price,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .listing-thumb .item-price,
+.rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-5-view .rtcl-price-amount {
+    background-color: var(--cldoctor-primary-color);
+}
+
+/* = BuddyPress & BuddyBoss Addons
+=============================================================================================== */
+#header-cover-image {
+    background-color: #dbdbdb;
+}
+.buddypress-wrap .main-navs:not(.dir-navs) li.selected a,
+.buddypress-wrap .main-navs:not(.dir-navs) li.current a,
+.buddypress-wrap .bp-navs:not(.dir-navs) li.selected a,
+.buddypress-wrap .bp-navs:not(.dir-navs) li.current a,
+.buddypress-wrap .bp-navs li:not(.current) a:focus,
+.buddypress-wrap .bp-navs li:not(.current) a:hover,
+.buddypress-wrap .bp-navs li:not(.selected) a:focus,
+.buddypress-wrap .bp-navs li:not(.selected) a:hover {
+    color: #fff;
+    background: var(--cldoctor-primary-color);
+}
+
+.activity-update-form #whats-new-textarea textarea {
+    border-color: #cccccc;
+}
+
+.activity-update-form #whats-new-textarea textarea:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.buddypress .buddypress-wrap .activity-read-more a:focus,
+.buddypress .buddypress-wrap .activity-read-more a:hover,
+.buddypress .buddypress-wrap .button-nav li a:focus,
+.buddypress .buddypress-wrap .button-nav li a:hover,
+.buddypress .buddypress-wrap .button-nav li.current a,
+.buddypress .buddypress-wrap .comment-reply-link:focus,
+.buddypress .buddypress-wrap .comment-reply-link:hover,
+.buddypress .buddypress-wrap .generic-button a:focus,
+.buddypress .buddypress-wrap .generic-button a:hover,
+.buddypress .buddypress-wrap a.button:focus,
+.buddypress .buddypress-wrap a.button:hover,
+.buddypress .buddypress-wrap button:focus,
+.buddypress .buddypress-wrap button:hover,
+.buddypress .buddypress-wrap input[type=button]:focus,
+.buddypress .buddypress-wrap input[type=button]:hover,
+.buddypress .buddypress-wrap input[type=reset]:focus,
+.buddypress .buddypress-wrap input[type=reset]:hover,
+.buddypress .buddypress-wrap input[type=submit]:focus,
+.buddypress .buddypress-wrap input[type=submit]:hover {
+    color: #fff;
+    background: var(--cldoctor-primary-color);
+    border-color: var(--cldoctor-primary-color);
+    transition: all .3s linear;
+}
+
+.buddypress-wrap .select-wrap {
+    border: 1px solid #ccc;
+}
+
+.buddypress-wrap .rtcl-action-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buddypress-wrap .rtcl-MyAccount-content-inner {
+    padding: 0;
+}
+
+.buddypress-wrap .listing-thumb {
+    max-width: 120px;
+}
+
+.buddypress-wrap ul.rtcl-meta {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.member-status {
+    top: -5px;
+    right: 12px;
+    width: 15px;
+    display: flex;
+    height: 15px;
+    position: absolute;
+}
+
+.member-status.online {
+    background-color: #48fb54;
+}
+
+.bp-wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.buddypress .buddypress-wrap input {
+    background-color: #fff;
+}
+
+.buddypress .buddypress-wrap button {
+    width: 60px;
+    height: 46px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #e4e4e4;
+}
+
+.buddypress .buddypress-wrap button:hover {
+    color: #fff;
+}
+
+.buddypress .buddypress-wrap button:hover svg path {
+    fill: #fff;
+}
+
+.rtcl-my-listing-table .rtcl-ad-details {
+    gap: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.rtcl-my-listing-table .rtcl-actions-wrap {
+    display: flex;
+    flex-flow: column;
+}
+
+.rtcl-my-listing-table .rtcl-actions-wrap .rtcl-actions {
+    gap: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.rtcl-my-listing-table .rtcl-actions-wrap .rtcl-actions a {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.rtcl .rtcl-my-listings-search-form .form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.rtcl .rtcl-add-new-listing .btn.btn-success {
+    border: none;
+    color: #ffffff;
+    background-color: var(--cldoctor-primary-color);
+}
+
+.rtcl .buddypress-wrap nav.rtcl-pagination {
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+span.rtcl-my-listings-table-toggle-info {
+    display: none;
+}
+
+.rtcl .buddypress-wrap a:hover {
+    color: var(--cldoctor-primary-color);
+}

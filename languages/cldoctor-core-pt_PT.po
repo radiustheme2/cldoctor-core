@@ -1,0 +1,2290 @@
+# Portuguese (Portugal) translation for Cldoctor Core
+# Domain: cldoctor-core
+# Generated for conversion to .po / .mo / .l10n.php
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Cldoctor Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-23 12:28+0000\n"
+"PO-Revision-Date: 2026-08-19 03:54+0000\n"
+"Last-Translator: Claude\n"
+"Language-Team: Portuguese (Portugal)\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Claude\n"
+"X-Domain: cldoctor-core\n"
+
+#: elementor/video-button/class.php:342 elementor/button/class.php:157 elementor/team-member/class.php:182 elementor/team-member/class.php:253 elementor/testimonial/class.php:763
+msgid " Background"
+msgstr " Fundo"
+
+#: elementor/hooks.php:101
+msgid " Category Label"
+msgstr " Rótulo da categoria"
+
+#: elementor/hooks.php:108
+msgid " Row Box Alignment"
+msgstr " Alinhamento da caixa de linha"
+
+#: elementor/posts/view-1.php:157 elementor/posts/view-3.php:158 elementor/posts/view-2.php:128
+msgid "% Comments"
+msgstr "% comentários"
+
+#: elementor/base.php:99
+msgid "1"
+msgstr "1"
+
+#: elementor/hooks.php:135
+msgid "1 Col"
+msgstr "1 col."
+
+#: elementor/base.php:88
+msgid "1 Columns"
+msgstr "1 coluna"
+
+#: elementor/posts/view-1.php:156 elementor/posts/view-3.php:157 elementor/posts/view-2.php:127
+msgid "1 Comment"
+msgstr "1 comentário"
+
+#: elementor/base.php:113
+msgid "1000"
+msgstr "1000"
+
+#: elementor/base.php:114
+msgid "1500"
+msgstr "1500"
+
+#: elementor/base.php:100
+msgid "2"
+msgstr "2"
+
+#: elementor/hooks.php:136
+msgid "2 Col"
+msgstr "2 col."
+
+#: elementor/base.php:89
+msgid "2 Columns"
+msgstr "2 colunas"
+
+#: elementor/base.php:123
+msgid "200"
+msgstr "200"
+
+#: elementor/base.php:115
+msgid "2000"
+msgstr "2000"
+
+#: elementor/base.php:116
+msgid "2500"
+msgstr "2500"
+
+#: elementor/base.php:101
+msgid "3"
+msgstr "3"
+
+#: elementor/hooks.php:137
+msgid "3 Col"
+msgstr "3 col."
+
+#: elementor/base.php:90
+msgid "3 Columns"
+msgstr "3 colunas"
+
+#: elementor/base.php:124
+msgid "300"
+msgstr "300"
+
+#: elementor/base.php:117
+msgid "3000"
+msgstr "3000"
+
+#: elementor/base.php:102
+msgid "4"
+msgstr "4"
+
+#: elementor/hooks.php:138
+msgid "4 Col"
+msgstr "4 col."
+
+#: elementor/base.php:91
+msgid "4 Columns"
+msgstr "4 colunas"
+
+#: elementor/base.php:125
+msgid "400"
+msgstr "400"
+
+#: elementor/base.php:103
+msgid "5"
+msgstr "5"
+
+#: elementor/hooks.php:139
+msgid "5 Col"
+msgstr "5 col."
+
+#: elementor/base.php:92
+msgid "5 Columns"
+msgstr "5 colunas"
+
+#: elementor/base.php:112 elementor/base.php:126
+msgid "500"
+msgstr "500"
+
+#: elementor/base.php:104
+msgid "6"
+msgstr "6"
+
+#: elementor/hooks.php:140
+msgid "6 Col"
+msgstr "6 col."
+
+#: elementor/base.php:93
+msgid "6 Columns"
+msgstr "6 colunas"
+
+#: elementor/base.php:127
+msgid "600"
+msgstr "600"
+
+#: elementor/base.php:105
+msgid "7"
+msgstr "7"
+
+#: elementor/base.php:128
+msgid "700"
+msgstr "700"
+
+#: elementor/base.php:106
+msgid "8"
+msgstr "8"
+
+#: elementor/base.php:129
+msgid "800"
+msgstr "800"
+
+#: elementor/base.php:130
+msgid "900"
+msgstr "900"
+
+#. Base ID
+#: widgets/about.php:18
+msgid "A1::About"
+msgstr "A1::Sobre"
+
+#. Base ID
+#: widgets/newsletter.php:18
+msgid "A2: Newsletter"
+msgstr "A2: Newsletter"
+
+#. Base ID
+#: widgets/advanced-search.php:22
+msgid "A3: Advanced Search"
+msgstr "A3: Pesquisa avançada"
+
+#: widgets/advanced-filter.php:31
+msgid "A4: Advanced Listing Filter"
+msgstr "A4: Filtro avançado de anúncios"
+
+#. Base ID
+#: widgets/post.php:17
+msgid "A5: Posts"
+msgstr "A5: Publicações"
+
+#. Base ID
+#: widgets/contact.php:18
+msgid "A6::Contact"
+msgstr "A6::Contacto"
+
+#: elementor/advanced-search/class.php:443
+msgid "Active Color"
+msgstr "Cor ativa"
+
+#: elementor/infobox/class.php:1239
+msgid "Active Item"
+msgstr "Item ativo"
+
+#: widgets/advanced-search.php:24
+msgid "Add advanced search field"
+msgstr "Adicionar campo de pesquisa avançada"
+
+#: elementor/listing-locations/class.php:75
+msgid "Add as many locations as you want"
+msgstr "Adicione quantas localizações desejar"
+
+#: widgets/contact.php:117 elementor/listing-promotions-filter/class.php:186 elementor/listing-promotions-filter/class.php:190
+msgid "Address"
+msgstr "Endereço"
+
+#: elementor/advanced-search/class.php:22
+msgid "Advanced Search"
+msgstr "Pesquisa avançada"
+
+#: elementor/button/class.php:88
+msgid "After"
+msgstr "Depois"
+
+#: elementor/el-extend.php:176 elementor/stroke-title/class.php:63
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: elementor/testimonial/class.php:188
+msgid "Aliquid expedita recusandae ipsam quas fugit aperiam nihil nemo delectus laudantium? Enim est quibusdam dicta a"
+msgstr "Aliquid expedita recusandae ipsam quas fugit aperiam nihil nemo delectus laudantium? Enim est quibusdam dicta a"
+
+#: elementor/listing-promotions-filter/view.php:26
+msgid "All"
+msgstr "Todos"
+
+#: widgets/post.php:107
+msgid "All Categories"
+msgstr "Todas as categorias"
+
+#: widgets/about.php:149
+msgid "App Store Image"
+msgstr "Imagem da App Store"
+
+#: widgets/about.php:153
+msgid "App Store URL"
+msgstr "URL da App Store"
+
+#: elementor/testimonial/class.php:312
+msgid "Arrow"
+msgstr "Seta"
+
+#: elementor/hooks.php:236
+msgid "Arrow Color"
+msgstr "Cor da seta"
+
+#: elementor/hooks.php:285
+msgid "Arrow Hover Color"
+msgstr "Cor da seta ao passar o rato"
+
+#: elementor/hooks.php:207
+msgid "Arrow Size"
+msgstr "Tamanho da seta"
+
+#: elementor/posts/class.php:226
+msgid "ASC"
+msgstr "ASC"
+
+#: elementor/posts/class.php:211
+msgid "Author"
+msgstr "Autor"
+
+#: elementor/posts/class.php:680
+msgid "Author Avatar Style"
+msgstr "Estilo do avatar do autor"
+
+#: elementor/posts/class.php:684
+msgid "Author Icon"
+msgstr "Ícone do autor"
+
+#: elementor/posts/class.php:685
+msgid "Author Image"
+msgstr "Imagem do autor"
+
+#: elementor/posts/class.php:668
+msgid "Author Visibility"
+msgstr "Visibilidade do autor"
+
+#: widgets/advanced-search.php:152 elementor/advanced-search/class.php:191
+msgid "Auto Suggestion"
+msgstr "Sugestão automática"
+
+#: elementor/testimonial/class.php:351
+msgid "Autoplay"
+msgstr "Reprodução automática"
+
+#: elementor/testimonial/class.php:364
+msgid "Autoplay Speed"
+msgstr "Velocidade da reprodução automática"
+
+#: elementor/posts/class.php:248 elementor/posts/class.php:826 elementor/posts/class.php:881 elementor/title/class.php:240 elementor/title/class.php:343 elementor/title/class.php:389 elementor/advanced-search/class.php:234 elementor/advanced-search/class.php:238 elementor/advanced-search/class.php:535 elementor/advanced-search/class.php:620 elementor/advanced-search/class.php:698 elementor/advanced-search/class.php:814 elementor/advanced-search/class.php:860 elementor/faq/class.php:312 elementor/faq/class.php:420 elementor/video-button/class.php:145 elementor/video-button/class.php:338 elementor/video-button/class.php:404 elementor/infobox/class.php:387 elementor/infobox/class.php:435 elementor/infobox/class.php:626 elementor/infobox/class.php:675 elementor/infobox/class.php:1007 elementor/infobox/class.php:1098 elementor/infobox/class.php:1165 elementor/infobox/class.php:1185 elementor/infobox/class.php:1266 elementor/infobox/class.php:1282 elementor/button/class.php:153 elementor/button/class.php:207 elementor/team-member/class.php:178 elementor/team-member/class.php:249 elementor/testimonial/class.php:759 elementor/listing-promotions-filter/class.php:308 elementor/listing-promotions-filter/class.php:312
+msgid "Background"
+msgstr "Fundo"
+
+#: elementor/hooks.php:293 elementor/posts/class.php:252 elementor/posts/class.php:830 elementor/posts/class.php:885 elementor/team-member/class.php:472 elementor/team-member/class.php:510
+msgid "Background Color"
+msgstr "Cor de fundo"
+
+#: elementor/listing-locations/class.php:67
+msgid "Background Image"
+msgstr "Imagem de fundo"
+
+#: elementor/listing-promotions-filter/class.php:175
+msgid "Badge"
+msgstr "Distintivo"
+
+#: inc/post-meta.php:95
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/post-meta.php:115
+msgid "Banner Search Background Image"
+msgstr "Imagem de fundo da pesquisa do banner"
+
+#: elementor/button/class.php:89
+msgid "Before"
+msgstr "Antes"
+
+#: widgets/advanced-search.php:144 elementor/advanced-search/class.php:75
+msgid "Block"
+msgstr "Bloco"
+
+#: elementor/title/class.php:232 elementor/title/class.php:362 elementor/title/class.php:397 elementor/advanced-search/class.php:833 elementor/advanced-search/class.php:868 elementor/faq/class.php:223 elementor/faq/class.php:274 elementor/faq/class.php:383 elementor/video-button/class.php:153 elementor/video-button/class.php:365 elementor/video-button/class.php:422 elementor/infobox/class.php:358 elementor/infobox/class.php:876 elementor/infobox/class.php:1046 elementor/infobox/class.php:1109 elementor/infobox/class.php:1157 elementor/button/class.php:168 elementor/button/class.php:226 elementor/stroke-title/class.php:124 elementor/team-member/class.php:276 elementor/team-member/class.php:482 elementor/team-member/class.php:520 elementor/testimonial/class.php:774
+msgid "Border"
+msgstr "Contorno"
+
+#: elementor/advanced-search/class.php:272 elementor/advanced-search/class.php:555 elementor/advanced-search/class.php:636 elementor/advanced-search/class.php:714 elementor/advanced-search/class.php:880 elementor/faq/class.php:392 elementor/infobox/class.php:692 elementor/infobox/class.php:1058 elementor/team-member/class.php:205 elementor/testimonial/class.php:558
+msgid "Border Radius"
+msgstr "Raio do contorno"
+
+#: elementor/infobox/class.php:172
+msgid "Bottom"
+msgstr "Baixo"
+
+#: elementor/listing-locations/class.php:274 elementor/listing-locations/class.php:278 elementor/listing-locations/class.php:403 elementor/listing-locations/class.php:407
+msgid "Box Background"
+msgstr "Fundo da caixa"
+
+#: elementor/posts/class.php:277
+msgid "Box Border Radius"
+msgstr "Raio do contorno da caixa"
+
+#: elementor/posts/class.php:321
+msgid "Box Content Padding"
+msgstr "Espaçamento do conteúdo da caixa"
+
+#: elementor/listing-locations/class.php:83
+msgid "Box Height"
+msgstr "Altura da caixa"
+
+#: elementor/posts/class.php:639
+msgid "Box Hover"
+msgstr "Caixa ao passar o rato"
+
+#: elementor/video-button/class.php:162
+msgid "Box Radius"
+msgstr "Raio da caixa"
+
+#: elementor/video-button/class.php:93
+msgid "Box Setting Style"
+msgstr "Estilo das definições da caixa"
+
+#: elementor/video-button/class.php:202
+msgid "Box Settings"
+msgstr "Definições da caixa"
+
+#: inc/post-meta.php:66
+msgid "Box width"
+msgstr "Largura da caixa"
+
+#: inc/post-meta.php:105
+msgid "Breadcrumb"
+msgstr "Trilho de navegação"
+
+#: elementor/title/class.php:299 elementor/advanced-search/class.php:779 elementor/infobox/class.php:889 elementor/button/class.php:22 elementor/button/class.php:38
+msgid "Button"
+msgstr "Botão"
+
+#: elementor/posts/class.php:812
+msgid "Button Color"
+msgstr "Cor do botão"
+
+#: elementor/posts/class.php:867
+msgid "Button Color Hover"
+msgstr "Cor do botão ao passar o rato"
+
+#: elementor/posts/class.php:858
+msgid "Button Hover"
+msgstr "Botão ao passar o rato"
+
+#: elementor/posts/class.php:750
+msgid "Button Settings"
+msgstr "Definições do botão"
+
+#: elementor/title/class.php:307 elementor/infobox/class.php:953 elementor/button/class.php:105
+msgid "Button Style"
+msgstr "Estilo do botão"
+
+#: widgets/advanced-search.php:198 elementor/posts/class.php:776 elementor/advanced-search/class.php:178
+msgid "Button Text"
+msgstr "Texto do botão"
+
+#: elementor/posts/class.php:757
+msgid "Button Visibility"
+msgstr "Visibilidade do botão"
+
+#: elementor/posts/class.php:131
+msgid "By Category"
+msgstr "Por categoria"
+
+#: elementor/posts/class.php:130
+msgid "By Post ID"
+msgstr "Por ID da publicação"
+
+#: elementor/posts/class.php:132
+msgid "By Tags"
+msgstr "Por etiquetas"
+
+#: elementor/testimonial/class.php:263
+msgid "Carousel Settings"
+msgstr "Definições do carrossel"
+
+#: elementor/hooks.php:124
+msgid "Categories box alignments"
+msgstr "Alinhamentos da caixa de categorias"
+
+#: widgets/post.php:125 widgets/advanced-filter.php:207 elementor/advanced-search/class.php:570 elementor/listing-promotions-filter/class.php:112
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/category.php:158 inc/category.php:171
+msgid "Category Color"
+msgstr "Cor da categoria"
+
+#: elementor/posts/class.php:709
+msgid "Category Visibility"
+msgstr "Visibilidade da categoria"
+
+#: elementor/hooks.php:56 elementor/hooks.php:78 elementor/hooks.php:115 elementor/base.php:72 elementor/el-extend.php:184 elementor/infobox/class.php:109 elementor/infobox/class.php:138 elementor/infobox/class.php:197
+msgid "Center"
+msgstr "Centro"
+
+#: inc/post-meta.php:77
+msgid "Center Alignment"
+msgstr "Alinhamento ao centro"
+
+#: elementor/testimonial/class.php:380
+msgid "Centered Slides"
+msgstr "Slides centrados"
+
+#: elementor/testimonial/class.php:175
+msgid "CEO, PSDBOSS"
+msgstr "CEO, PSDBOSS"
+
+#: elementor/listing-promotions-filter/class.php:68
+msgid "change items on every page load"
+msgstr "alterar itens a cada carregamento da página"
+
+#: elementor/posts/class.php:156
+msgid "Choose Categories"
+msgstr "Escolher categorias"
+
+#: elementor/posts/class.php:171
+msgid "Choose Tags"
+msgstr "Escolher etiquetas"
+
+#: elementor/posts/class.php:141
+msgid "Choose Titles"
+msgstr "Escolher títulos"
+
+#: widgets/advanced-filter.php:34
+msgid "Classified listing Filter."
+msgstr "Filtro de anúncios classificados."
+
+#. Name of the plugin
+msgid "Cldoctor Core"
+msgstr "Cldoctor Core"
+
+#: elementor/init.php:122
+msgid "Cldoctor Elements"
+msgstr "Elementos Cldoctor"
+
+#: widgets/about.php:20
+msgid "Cldoctor: About widget"
+msgstr "Cldoctor: Widget Sobre"
+
+#: widgets/contact.php:20
+msgid "Cldoctor: Contact Widget"
+msgstr "Cldoctor: Widget de contacto"
+
+#: widgets/newsletter.php:19
+msgid "Cldoctor: Newsletter Widget"
+msgstr "Cldoctor: Widget de newsletter"
+
+#: widgets/post.php:18
+msgid "Cldoctor: Posts Widget"
+msgstr "Cldoctor: Widget de publicações"
+
+#: widgets/advanced-search.php:69
+msgid "Clear"
+msgstr "Limpar"
+
+#: inc/category.php:200 elementor/title/class.php:129 elementor/title/class.php:203 elementor/title/class.php:267 elementor/title/class.php:325 elementor/title/class.php:379 elementor/advanced-search/class.php:293 elementor/advanced-search/class.php:377 elementor/advanced-search/class.php:451 elementor/advanced-search/class.php:511 elementor/advanced-search/class.php:600 elementor/advanced-search/class.php:679 elementor/advanced-search/class.php:757 elementor/advanced-search/class.php:796 elementor/advanced-search/class.php:850 elementor/faq/class.php:245 elementor/video-button/class.php:184 elementor/video-button/class.php:319 elementor/video-button/class.php:394 elementor/infobox/class.php:375 elementor/infobox/class.php:422 elementor/infobox/class.php:485 elementor/infobox/class.php:615 elementor/infobox/class.php:664 elementor/infobox/class.php:750 elementor/infobox/class.php:823 elementor/infobox/class.php:977 elementor/infobox/class.php:1083 elementor/button/class.php:134 elementor/button/class.php:197 elementor/stroke-title/class.php:84 elementor/team-member/class.php:307 elementor/team-member/class.php:359 elementor/team-member/class.php:461 elementor/team-member/class.php:499 elementor/listing-promotions-filter/class.php:300 elementor/listing-promotions-filter/class.php:322
+msgid "Color"
+msgstr "Cor"
+
+#: elementor/hooks.php:379
+msgid "Column"
+msgstr "Coluna"
+
+#: elementor/hooks.php:388
+msgid "Column 1"
+msgstr "Coluna 1"
+
+#: elementor/hooks.php:387
+msgid "Column 2"
+msgstr "Coluna 2"
+
+#: elementor/hooks.php:386
+msgid "Column 3"
+msgstr "Coluna 3"
+
+#: elementor/hooks.php:385
+msgid "Column 4"
+msgstr "Coluna 4"
+
+#: elementor/hooks.php:384
+msgid "Column 5"
+msgstr "Coluna 5"
+
+#: elementor/hooks.php:383
+msgid "Column 6"
+msgstr "Coluna 6"
+
+#: elementor/hooks.php:382
+msgid "Column 7"
+msgstr "Coluna 7"
+
+#: elementor/hooks.php:381
+msgid "Column 8"
+msgstr "Coluna 8"
+
+#: elementor/listing-locations/class.php:164
+msgid "Columns Gap"
+msgstr "Espaço entre colunas"
+
+#: elementor/hooks.php:370
+msgid "Columns support 2-5"
+msgstr "As colunas suportam 2-5"
+
+#: elementor/base.php:143
+msgid "Comment Count"
+msgstr "Contagem de comentários"
+
+#: elementor/posts/class.php:734
+msgid "Comment Visibility"
+msgstr "Visibilidade dos comentários"
+
+#: elementor/posts/view-1.php:158 elementor/posts/view-3.php:159 elementor/posts/view-2.php:129
+msgid "Comments are Closed"
+msgstr "Os comentários estão fechados"
+
+#: elementor/testimonial/class.php:68
+msgid "Company Logo"
+msgstr "Logótipo da empresa"
+
+#: elementor/faq/class.php:72 elementor/testimonial/class.php:105 elementor/testimonial/class.php:654 elementor/testimonial/class.php:664
+msgid "Content"
+msgstr "Conteúdo"
+
+#: elementor/listing-promotions-filter/class.php:167
+msgid "Content Area Control"
+msgstr "Controlo da área de conteúdo"
+
+#: elementor/posts/class.php:577
+msgid "Content Color"
+msgstr "Cor do conteúdo"
+
+#: elementor/posts/class.php:263
+msgid "Content Padding"
+msgstr "Espaçamento do conteúdo"
+
+#: elementor/testimonial/class.php:646
+msgid "Content Settings"
+msgstr "Definições do conteúdo"
+
+#: elementor/listing-locations/class.php:324 elementor/listing-locations/class.php:379
+msgid "Count Color"
+msgstr "Cor da contagem"
+
+#: elementor/listing-locations/class.php:341
+msgid "Count Typography"
+msgstr "Tipografia da contagem"
+
+#: elementor/listing-locations/class.php:111
+msgid "Counts label"
+msgstr "Rótulo das contagens"
+
+#: elementor/infobox/class.php:219
+msgid "CSS Clasess"
+msgstr "Classes CSS"
+
+#: elementor/faq/class.php:163
+msgid "Css class"
+msgstr "Classe CSS"
+
+#: widgets/post.php:79
+msgid "Currently there are no posts to display"
+msgstr "Atualmente não existem publicações para mostrar"
+
+#: elementor/posts/class.php:72
+msgid "Custom"
+msgstr "Personalizado"
+
+#: widgets/post.php:116
+msgid "Custom Order (Available via Order field inside Page Attributes box)"
+msgstr "Ordem personalizada (disponível através do campo Ordem na caixa Atributos da página)"
+
+#: elementor/base.php:139 elementor/posts/class.php:209 elementor/listing-promotions-filter/class.php:219 elementor/listing-promotions-filter/class.php:223
+msgid "Date"
+msgstr "Data"
+
+#: elementor/listing-promotions-filter/class.php:81
+msgid "Date (Recents comes first"
+msgstr "Data (as mais recentes primeiro"
+
+#: widgets/post.php:114
+msgid "Date (Recents comes first)"
+msgstr "Data (as mais recentes primeiro)"
+
+#: elementor/posts/class.php:721
+msgid "Date Format"
+msgstr "Formato da data"
+
+#: elementor/posts/class.php:697
+msgid "Date Visibility"
+msgstr "Visibilidade da data"
+
+#: inc/post-meta.php:29 inc/post-meta.php:45 inc/post-meta.php:56 inc/post-meta.php:65 inc/post-meta.php:75 inc/post-meta.php:86 inc/post-meta.php:98 inc/post-meta.php:108 elementor/el-extend.php:140 elementor/posts/class.php:71
+msgid "Default"
+msgstr "Predefinido"
+
+#: elementor/posts/class.php:725
+msgid "Default From Settings"
+msgstr "Predefinido das definições"
+
+#: elementor/base.php:200
+msgid "Default Image Size"
+msgstr "Tamanho de imagem predefinido"
+
+#: widgets/advanced-search.php:153 elementor/advanced-search/class.php:192
+msgid "Dependency Selection"
+msgstr "Seleção de dependência"
+
+#: elementor/posts/class.php:227
+msgid "DESC"
+msgstr "DESC"
+
+#: widgets/newsletter.php:89 widgets/contact.php:113 widgets/about.php:136 elementor/title/class.php:73 elementor/title/class.php:251 elementor/infobox/class.php:799 elementor/infobox/class.php:807
+msgid "Description"
+msgstr "Descrição"
+
+#: elementor/title/class.php:259
+msgid "Description Style"
+msgstr "Estilo da descrição"
+
+#: elementor/team-member/class.php:72 elementor/team-member/class.php:351 elementor/testimonial/class.php:96 elementor/testimonial/class.php:625 elementor/testimonial/class.php:635
+msgid "Designation"
+msgstr "Cargo"
+
+#: elementor/testimonial/class.php:617
+msgid "Designation Settings"
+msgstr "Definições do cargo"
+
+#: elementor/listing-locations/class.php:208 elementor/testimonial/class.php:424
+msgid "Desktop items"
+msgstr "Itens em computador"
+
+#: elementor/listing-promotions-filter/class.php:251
+msgid "Desktops: > 1199px"
+msgstr "Computadores: > 1199px"
+
+#: elementor/listing-promotions-filter/class.php:260
+msgid "Desktops: > 991px"
+msgstr "Computadores: > 991px"
+
+#: inc/post-meta.php:100 inc/post-meta.php:110
+msgid "Disable"
+msgstr "Desativar"
+
+#: elementor/advanced-search/class.php:354
+msgid "Dot Possition Form Top"
+msgstr "Posição dos pontos a partir do topo"
+
+#: elementor/testimonial/class.php:325
+msgid "Dots"
+msgstr "Pontos"
+
+#: widgets/contact.php:125
+msgid "Email"
+msgstr "Email"
+
+#: inc/post-meta.php:99 inc/post-meta.php:109
+msgid "Enable"
+msgstr "Ativar"
+
+#: elementor/hooks.php:367
+msgid "Enable FilterX"
+msgstr "Ativar FilterX"
+
+#: elementor/listing-locations/class.php:120
+msgid "Enable Link"
+msgstr "Ativar ligação"
+
+#: elementor/listing-promotions-filter/class.php:116
+msgid "Enable or disable Category. Default: On"
+msgstr "Ativar ou desativar a categoria. Predefinição: Ativado"
+
+#: elementor/faq/class.php:101
+msgid "Enable or disable icon. Default: Off"
+msgstr "Ativar ou desativar o ícone. Predefinição: Desativado"
+
+#: elementor/testimonial/class.php:176
+msgid "Engage with our professional real estate agents sell Following buy or rent your home.Get emails directly to your area reach inbox and manage the lead with."
+msgstr "Contacte os nossos agentes imobiliários profissionais para vender, comprar ou arrendar a sua casa. Receba emails diretamente na sua caixa de entrada e faça a gestão dos contactos."
+
+#: elementor/testimonial/class.php:98 elementor/testimonial/class.php:107
+msgid "Enter Designation"
+msgstr "Introduzir cargo"
+
+#: elementor/testimonial/class.php:80
+msgid "Enter Name"
+msgstr "Introduzir nome"
+
+#: elementor/posts/class.php:118
+msgid "Enter number of post to show."
+msgstr "Introduza o número de publicações a mostrar."
+
+#: elementor/posts/class.php:117
+msgid "Enter Post Limit"
+msgstr "Introduzir limite de publicações"
+
+#: elementor/posts/class.php:188
+msgid "Enter Post offset"
+msgstr "Introduzir deslocamento de publicações"
+
+#: elementor/posts/class.php:199
+msgid "Enter the post IDs separated by comma for exclude"
+msgstr "Introduza os IDs das publicações a excluir separados por vírgulas"
+
+#: elementor/posts/class.php:539
+msgid "Excerpt Limit"
+msgstr "Limite do excerto"
+
+#: elementor/posts/class.php:561
+msgid "Excerpt Spacing"
+msgstr "Espaçamento do excerto"
+
+#: elementor/posts/class.php:512
+msgid "Excerpt Style"
+msgstr "Estilo do excerto"
+
+#: elementor/posts/class.php:520 elementor/infobox/class.php:896
+msgid "Excerpt Visibility"
+msgstr "Visibilidade do excerto"
+
+#: elementor/posts/class.php:196
+msgid "Exclude posts"
+msgstr "Excluir publicações"
+
+#: elementor/faq/class.php:164
+msgid "Extra class for css, if need"
+msgstr "Classe CSS adicional, se necessário"
+
+#: elementor/faq/class.php:24
+msgid "Faq"
+msgstr "FAQ"
+
+#: elementor/faq/class.php:44 elementor/faq/class.php:51
+msgid "Faq List"
+msgstr "Lista de FAQ"
+
+#: elementor/faq/class.php:80
+msgid "Faq Title 1"
+msgstr "Título da FAQ 1"
+
+#: elementor/faq/class.php:84
+msgid "Faq Title 2"
+msgstr "Título da FAQ 2"
+
+#: elementor/posts/class.php:354
+msgid "Feature Image Visibility"
+msgstr "Visibilidade da imagem em destaque"
+
+#: elementor/listing-promotions-filter/class.php:46 elementor/listing-promotions-filter/class.php:397
+msgid "Featured"
+msgstr "Em destaque"
+
+#: elementor/advanced-search/class.php:211
+msgid "Field Gap"
+msgstr "Espaço entre campos"
+
+#: elementor/advanced-search/class.php:486 elementor/advanced-search/class.php:577 elementor/advanced-search/class.php:656 elementor/advanced-search/class.php:734
+msgid "Field Size"
+msgstr "Tamanho do campo"
+
+#: widgets/advanced-filter.php:156
+msgid "Filter"
+msgstr "Filtro"
+
+#: elementor/init.php:51
+msgid "Fontello Icons"
+msgstr "Ícones Fontello"
+
+#: widgets/init.php:59
+msgid "Footer (Style 2) 1"
+msgstr "Rodapé (Estilo 2) 1"
+
+#: widgets/init.php:60
+msgid "Footer (Style 2) 2"
+msgstr "Rodapé (Estilo 2) 2"
+
+#: widgets/init.php:61
+msgid "Footer (Style 2) 3"
+msgstr "Rodapé (Estilo 2) 3"
+
+#: widgets/init.php:62
+msgid "Footer (Style 2) 4"
+msgstr "Rodapé (Estilo 2) 4"
+
+#: widgets/init.php:63
+msgid "Footer (Style 2) 5"
+msgstr "Rodapé (Estilo 2) 5"
+
+#: widgets/init.php:64
+msgid "Footer (Style 2) 6"
+msgstr "Rodapé (Estilo 2) 6"
+
+#: widgets/init.php:79
+msgid "Footer (Style 3) 1"
+msgstr "Rodapé (Estilo 3) 1"
+
+#: widgets/init.php:80
+msgid "Footer (Style 3) 2"
+msgstr "Rodapé (Estilo 3) 2"
+
+#: widgets/init.php:81
+msgid "Footer (Style 3) 3"
+msgstr "Rodapé (Estilo 3) 3"
+
+#: widgets/init.php:82
+msgid "Footer (Style 3) 4"
+msgstr "Rodapé (Estilo 3) 4"
+
+#: widgets/init.php:83
+msgid "Footer (Style 3) 5"
+msgstr "Rodapé (Estilo 3) 5"
+
+#: widgets/init.php:84
+msgid "Footer (Style 3) 6"
+msgstr "Rodapé (Estilo 3) 6"
+
+#: widgets/init.php:99
+msgid "Footer (Style 4) 1"
+msgstr "Rodapé (Estilo 4) 1"
+
+#: widgets/init.php:100
+msgid "Footer (Style 4) 2"
+msgstr "Rodapé (Estilo 4) 2"
+
+#: widgets/init.php:101
+msgid "Footer (Style 4) 3"
+msgstr "Rodapé (Estilo 4) 3"
+
+#: widgets/init.php:102
+msgid "Footer (Style 4) 4"
+msgstr "Rodapé (Estilo 4) 4"
+
+#: widgets/init.php:103
+msgid "Footer (Style 4) 5"
+msgstr "Rodapé (Estilo 4) 5"
+
+#: widgets/init.php:104
+msgid "Footer (Style 4) 6"
+msgstr "Rodapé (Estilo 4) 6"
+
+#: inc/post-meta.php:83
+msgid "Footer Style"
+msgstr "Estilo do rodapé"
+
+#: elementor/advanced-search/class.php:204
+msgid "Form Fields Wrapper"
+msgstr "Contentor dos campos do formulário"
+
+#: widgets/newsletter.php:93 widgets/contact.php:133
+msgid "Form Shortcode"
+msgstr "Shortcode do formulário"
+
+#: widgets/contact.php:129
+msgid "Form Title"
+msgstr "Título do formulário"
+
+#: elementor/posts/class.php:129
+msgid "From all recent post"
+msgstr "De todas as publicações recentes"
+
+#: elementor/team-member/class.php:162 elementor/team-member/class.php:170
+msgid "Full Box"
+msgstr "Caixa completa"
+
+#: elementor/testimonial/class.php:751
+msgid "Full Box Settings"
+msgstr "Definições da caixa completa"
+
+#: elementor/base.php:204
+msgid "Full Size"
+msgstr "Tamanho completo"
+
+#: inc/post-meta.php:46
+msgid "Full Width"
+msgstr "Largura total"
+
+#: inc/post-meta.php:67
+msgid "Fullwidth"
+msgstr "Largura total"
+
+#: elementor/listing-locations/class.php:168 elementor/listing-locations/class.php:190
+msgid "Gap 1"
+msgstr "Espaço 1"
+
+#: elementor/listing-locations/class.php:177 elementor/listing-locations/class.php:199
+msgid "Gap 10"
+msgstr "Espaço 10"
+
+#: elementor/listing-locations/class.php:178 elementor/listing-locations/class.php:200
+msgid "Gap 11"
+msgstr "Espaço 11"
+
+#: elementor/listing-locations/class.php:179 elementor/listing-locations/class.php:201
+msgid "Gap 12"
+msgstr "Espaço 12"
+
+#: elementor/listing-locations/class.php:169 elementor/listing-locations/class.php:191
+msgid "Gap 2"
+msgstr "Espaço 2"
+
+#: elementor/listing-locations/class.php:170 elementor/listing-locations/class.php:192
+msgid "Gap 3"
+msgstr "Espaço 3"
+
+#: elementor/listing-locations/class.php:171 elementor/listing-locations/class.php:193
+msgid "Gap 4"
+msgstr "Espaço 4"
+
+#: elementor/listing-locations/class.php:172 elementor/listing-locations/class.php:194
+msgid "Gap 5"
+msgstr "Espaço 5"
+
+#: elementor/listing-locations/class.php:173 elementor/listing-locations/class.php:195
+msgid "Gap 6"
+msgstr "Espaço 6"
+
+#: elementor/listing-locations/class.php:174 elementor/listing-locations/class.php:196
+msgid "Gap 7"
+msgstr "Espaço 7"
+
+#: elementor/listing-locations/class.php:175 elementor/listing-locations/class.php:197
+msgid "Gap 8"
+msgstr "Espaço 8"
+
+#: elementor/listing-locations/class.php:176 elementor/listing-locations/class.php:198
+msgid "Gap 9"
+msgstr "Espaço 9"
+
+#: elementor/listing-locations/class.php:34 elementor/title/class.php:31 elementor/advanced-search/class.php:42 elementor/infobox/class.php:48 elementor/stroke-title/class.php:30 elementor/team-member/class.php:48 elementor/testimonial/class.php:49 elementor/listing-promotions-filter/class.php:35
+msgid "General"
+msgstr "Geral"
+
+#: elementor/testimonial/class.php:131
+msgid "Grid"
+msgstr "Grelha"
+
+#: elementor/posts/class.php:69
+msgid "Grid Column"
+msgstr "Coluna da grelha"
+
+#: elementor/posts/class.php:81
+msgid "Grid Column for Desktop"
+msgstr "Coluna da grelha para computador"
+
+#: elementor/posts/class.php:103
+msgid "Grid Column for Mobile"
+msgstr "Coluna da grelha para telemóvel"
+
+#: elementor/posts/class.php:92
+msgid "Grid Column for Tab"
+msgstr "Coluna da grelha para tablet"
+
+#: elementor/testimonial/class.php:247
+msgid "Grid Columns"
+msgstr "Colunas da grelha"
+
+#: elementor/testimonial/class.php:143
+msgid "Grid layout 1"
+msgstr "Esquema de grelha 1"
+
+#: elementor/testimonial/class.php:144
+msgid "Grid layout 2"
+msgstr "Esquema de grelha 2"
+
+#: elementor/listing-locations/class.php:157
+msgid "Grid Options"
+msgstr "Opções da grelha"
+
+#: elementor/testimonial/class.php:239
+msgid "Grid Settings"
+msgstr "Definições da grelha"
+
+#: elementor/hooks.php:244
+msgid "Head background"
+msgstr "Fundo do cabeçalho"
+
+#: inc/post-meta.php:53
+msgid "Header Layout"
+msgstr "Esquema do cabeçalho"
+
+#: inc/post-meta.php:62
+msgid "Header Width"
+msgstr "Largura do cabeçalho"
+
+#: elementor/video-button/class.php:122 elementor/video-button/class.php:231 elementor/video-button/class.php:287 elementor/infobox/class.php:313 elementor/infobox/class.php:581
+msgid "Height"
+msgstr "Altura"
+
+#: elementor/posts/class.php:362 elementor/posts/class.php:528 elementor/posts/class.php:765 elementor/infobox/class.php:904
+msgid "Hidden"
+msgstr "Oculto"
+
+#: elementor/posts/class.php:671 elementor/posts/class.php:700 elementor/posts/class.php:712 elementor/posts/class.php:737 elementor/advanced-search/class.php:85 elementor/advanced-search/class.php:96 elementor/advanced-search/class.php:107 elementor/advanced-search/class.php:118 elementor/advanced-search/class.php:129 elementor/advanced-search/class.php:140 elementor/advanced-search/class.php:151 elementor/faq/class.php:98 elementor/testimonial/class.php:212 elementor/testimonial/class.php:315 elementor/testimonial/class.php:328 elementor/testimonial/class.php:510
+msgid "Hide"
+msgstr "Ocultar"
+
+#: elementor/hooks.php:279 elementor/listing-locations/class.php:363 elementor/posts/class.php:485 elementor/title/class.php:372 elementor/advanced-search/class.php:843 elementor/video-button/class.php:387 elementor/infobox/class.php:415 elementor/infobox/class.php:656 elementor/infobox/class.php:1073 elementor/button/class.php:190 elementor/team-member/class.php:492
+msgid "Hover"
+msgstr "Ao passar o rato"
+
+#: elementor/video-button/class.php:412 elementor/button/class.php:215
+msgid "Hover Animation Color"
+msgstr "Cor da animação ao passar o rato"
+
+#: elementor/infobox/class.php:1216
+msgid "Hover Border Color"
+msgstr "Cor do contorno ao passar o rato"
+
+#: elementor/infobox/class.php:497 elementor/infobox/class.php:761 elementor/infobox/class.php:834 elementor/team-member/class.php:318
+msgid "Hover Color"
+msgstr "Cor ao passar o rato"
+
+#: elementor/infobox/class.php:1257
+msgid "Hover Style"
+msgstr "Estilo ao passar o rato"
+
+#: elementor/title/class.php:57 elementor/infobox/class.php:726 elementor/stroke-title/class.php:47
+msgid "HTML Tag"
+msgstr "Etiqueta HTML"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.radiustheme.com"
+msgstr "https://www.radiustheme.com"
+
+#: inc/category.php:46 inc/category.php:70 elementor/faq/class.php:56 elementor/faq/class.php:95 elementor/faq/class.php:108 elementor/video-button/class.php:78 elementor/infobox/class.php:256 elementor/infobox/class.php:473 elementor/button/class.php:75 elementor/team-member/class.php:119
+msgid "Icon"
+msgstr "Ícone"
+
+#: elementor/infobox/class.php:464
+msgid "Icon 2"
+msgstr "Ícone 2"
+
+#: elementor/infobox/class.php:102
+msgid "Icon Alignment left/right"
+msgstr "Alinhamento do ícone esquerda/direita"
+
+#: elementor/faq/class.php:316 elementor/faq/class.php:424
+msgid "Icon Background Color"
+msgstr "Cor de fundo do ícone"
+
+#: elementor/infobox/class.php:231
+msgid "Icon Box"
+msgstr "Caixa do ícone"
+
+#: elementor/infobox/class.php:391
+msgid "Icon box Background"
+msgstr "Fundo da caixa do ícone"
+
+#: elementor/advanced-search/class.php:539 elementor/advanced-search/class.php:624 elementor/advanced-search/class.php:702
+msgid "Icon box background"
+msgstr "Fundo da caixa do ícone"
+
+#: elementor/team-member/class.php:426
+msgid "Icon Box Size"
+msgstr "Tamanho da caixa do ícone"
+
+#: elementor/listing-locations/class.php:349 elementor/listing-locations/class.php:390 elementor/faq/class.php:294 elementor/faq/class.php:410
+msgid "Icon Color"
+msgstr "Cor do ícone"
+
+#: elementor/infobox/class.php:439
+msgid "Icon Hover Box Background"
+msgstr "Fundo da caixa do ícone ao passar o rato"
+
+#: elementor/infobox/class.php:248
+msgid "Icon Image"
+msgstr "Imagem do ícone"
+
+#: elementor/faq/class.php:125
+msgid "Icon Opened"
+msgstr "Ícone aberto"
+
+#: elementor/faq/class.php:142 elementor/infobox/class.php:79
+msgid "Icon Position"
+msgstr "Posição do ícone"
+
+#: elementor/faq/class.php:348 elementor/infobox/class.php:266 elementor/infobox/class.php:508 elementor/team-member/class.php:399 elementor/testimonial/class.php:724
+msgid "Icon Size"
+msgstr "Tamanho do ícone"
+
+#: elementor/faq/class.php:286
+msgid "Icon Style"
+msgstr "Estilo do ícone"
+
+#: elementor/infobox/class.php:239
+msgid "Icon Text"
+msgstr "Texto do ícone"
+
+#: inc/post-meta.php:117
+msgid "If not selected, default will be used"
+msgstr "Se não for selecionado, será utilizada a predefinição"
+
+#: elementor/testimonial/class.php:386
+msgid "If you use centered slider options then default column will not working."
+msgstr "Se utilizar as opções de slider centrado, a coluna predefinida não funcionará."
+
+#: inc/category.php:121 widgets/newsletter.php:81
+msgid "Image"
+msgstr "Imagem"
+
+#: elementor/image-box/class.php:66
+msgid "Image 1"
+msgstr "Imagem 1"
+
+#: elementor/image-box/class.php:76
+msgid "Image 2"
+msgstr "Imagem 2"
+
+#: elementor/hooks.php:518 elementor/listing-locations/class.php:143
+msgid "Image Border Radius"
+msgstr "Raio do contorno da imagem"
+
+#: elementor/image-box/class.php:20 elementor/image-box/class.php:29
+msgid "Image Box"
+msgstr "Caixa da imagem"
+
+#: elementor/hooks.php:493
+msgid "Image Box Width"
+msgstr "Largura da caixa da imagem"
+
+#: elementor/posts/class.php:386
+msgid "Image Height"
+msgstr "Altura da imagem"
+
+#: elementor/posts/class.php:301
+msgid "Image Radius"
+msgstr "Raio da imagem"
+
+#: elementor/posts/class.php:374
+msgid "Image Size"
+msgstr "Tamanho da imagem"
+
+#: inc/category.php:199
+msgid "Image/Icon"
+msgstr "Imagem/Ícone"
+
+#: elementor/posts/view-2.php:161
+msgid "in"
+msgstr "em"
+
+#: elementor/testimonial/class.php:338
+msgid "Infinite"
+msgstr "Infinito"
+
+#: elementor/infobox/class.php:23 elementor/infobox/class.php:1127
+msgid "Info Box"
+msgstr "Caixa de informação"
+
+#: elementor/infobox/class.php:1169 elementor/infobox/class.php:1189
+msgid "Infobox Background"
+msgstr "Fundo da caixa de informação"
+
+#: elementor/infobox/class.php:1270 elementor/infobox/class.php:1286
+msgid "Infobox Hover Background"
+msgstr "Fundo da caixa de informação ao passar o rato"
+
+#: elementor/el-extend.php:141 widgets/advanced-search.php:143 elementor/advanced-search/class.php:74
+msgid "Inline"
+msgstr "Em linha"
+
+#: elementor/faq/class.php:74 elementor/faq/class.php:81 elementor/faq/class.php:85
+msgid "Item content. Click the edit button to change this text."
+msgstr "Conteúdo do item. Clique no botão de edição para alterar este texto."
+
+#: elementor/listing-locations/class.php:132
+msgid "Item Padding"
+msgstr "Espaçamento do item"
+
+#: elementor/listing-locations/class.php:257
+msgid "Item Style"
+msgstr "Estilo do item"
+
+#: elementor/listing-promotions-filter/class.php:43
+msgid "Items to Show"
+msgstr "Itens a mostrar"
+
+#: elementor/testimonial/class.php:180
+msgid "John Doe"
+msgstr "John Doe"
+
+#: elementor/hooks.php:86 elementor/base.php:80
+msgid "Justified"
+msgstr "Justificado"
+
+#: elementor/testimonial/class.php:186
+msgid "Kent Odeldan"
+msgstr "Kent Odeldan"
+
+#: elementor/advanced-search/class.php:649
+msgid "Keyword"
+msgstr "Palavra-chave"
+
+#: elementor/hooks.php:103
+msgid "Keyword field position"
+msgstr "Posição do campo palavra-chave"
+
+#: widgets/advanced-filter.php:406
+msgid "km"
+msgstr "km"
+
+#: elementor/hooks.php:186
+msgid "label Color"
+msgstr "Cor do rótulo"
+
+#: elementor/posts/class.php:213
+msgid "Last modified date"
+msgstr "Data da última modificação"
+
+#: inc/post-meta.php:42 elementor/advanced-search/class.php:49 elementor/testimonial/class.php:128 elementor/testimonial/class.php:141 elementor/testimonial/class.php:155
+msgid "Layout"
+msgstr "Esquema"
+
+#: inc/post-meta.php:57 inc/post-meta.php:87 elementor/advanced-search/class.php:53
+msgid "Layout 1"
+msgstr "Esquema 1"
+
+#: inc/post-meta.php:88 elementor/advanced-search/class.php:54
+msgid "Layout 2"
+msgstr "Esquema 2"
+
+#: inc/post-meta.php:89
+msgid "Layout 3"
+msgstr "Esquema 3"
+
+#: inc/post-meta.php:90
+msgid "Layout 4"
+msgstr "Esquema 4"
+
+#: inc/post-meta.php:31
+msgid "Layout Settings"
+msgstr "Definições do esquema"
+
+#: inc/post-meta.php:38
+msgid "Layouts"
+msgstr "Esquemas"
+
+#: elementor/hooks.php:52 elementor/hooks.php:74 elementor/hooks.php:111 elementor/base.php:68 elementor/el-extend.php:180 elementor/faq/class.php:146 elementor/infobox/class.php:82 elementor/infobox/class.php:105 elementor/infobox/class.php:134 elementor/infobox/class.php:193
+msgid "Left"
+msgstr "Esquerda"
+
+#: inc/post-meta.php:76
+msgid "Left Alignment"
+msgstr "Alinhamento à esquerda"
+
+#: inc/post-meta.php:47
+msgid "Left Sidebar"
+msgstr "Barra lateral esquerda"
+
+#: elementor/title/class.php:89 elementor/video-button/class.php:69 elementor/button/class.php:66 elementor/team-member/class.php:80 elementor/testimonial/class.php:88
+msgid "Link"
+msgstr "Ligação"
+
+#: elementor/hooks.php:204
+msgid "Link Arrow"
+msgstr "Seta da ligação"
+
+#: elementor/infobox/class.php:916
+msgid "Link Icon"
+msgstr "Ícone da ligação"
+
+#: elementor/infobox/class.php:930
+msgid "Link Text"
+msgstr "Texto da ligação"
+
+#: elementor/infobox/class.php:941
+msgid "Link Url"
+msgstr "URL da ligação"
+
+#: elementor/team-member/class.php:130
+msgid "List"
+msgstr "Lista"
+
+#: elementor/listing-promotions-filter/class.php:145
+msgid "Listing Author"
+msgstr "Autor do anúncio"
+
+#: elementor/listing-promotions-filter/class.php:149
+msgid "Listing Author Information"
+msgstr "Informação do autor do anúncio"
+
+#: elementor/listing-promotions-filter/class.php:179
+msgid "Listing Badge"
+msgstr "Distintivo do anúncio"
+
+#: elementor/listing-promotions-filter/class.php:19
+msgid "Listing Isotope"
+msgstr "Isotope de anúncios"
+
+#: elementor/listing-locations/class.php:21
+msgid "Listing Locations"
+msgstr "Localizações do anúncio"
+
+#: elementor/listing-promotions-filter/class.php:156 elementor/listing-promotions-filter/class.php:160
+msgid "Listing Rating"
+msgstr "Classificação do anúncio"
+
+#: elementor/listing-promotions-filter/class.php:234
+msgid "Listing Views"
+msgstr "Visualizações do anúncio"
+
+#: elementor/team-member/class.php:139
+msgid "Lists"
+msgstr "Listas"
+
+#: widgets/advanced-filter.php:297 elementor/advanced-search/class.php:479 elementor/listing-promotions-filter/class.php:134
+msgid "Location"
+msgstr "Localização"
+
+#: elementor/listing-locations/class.php:57
+msgid "Location background image"
+msgstr "Imagem de fundo da localização"
+
+#: elementor/hooks.php:545
+msgid "Location Image"
+msgstr "Imagem da localização"
+
+#: elementor/listing-promotions-filter/class.php:138
+msgid "Location tag on/off"
+msgstr "Etiqueta de localização ligada/desligada"
+
+#: widgets/about.php:132
+msgid "Logo"
+msgstr "Logótipo"
+
+#: elementor/testimonial/class.php:182
+msgid "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita recusandae ipsam quas fugit aperiam nihil nemo delectus laudantium? Enim est quibusdam dicta a"
+msgstr "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita recusandae ipsam quas fugit aperiam nihil nemo delectus laudantium? Enim est quibusdam dicta a"
+
+#: elementor/image-box/class.php:48
+msgid "Main Image"
+msgstr "Imagem principal"
+
+#: elementor/posts/class.php:790 elementor/title/class.php:148 elementor/title/class.php:222 elementor/title/class.php:286 elementor/advanced-search/class.php:261 elementor/advanced-search/class.php:312 elementor/faq/class.php:373 elementor/infobox/class.php:337 elementor/infobox/class.php:785 elementor/infobox/class.php:866 elementor/infobox/class.php:1033 elementor/infobox/class.php:1136 elementor/stroke-title/class.php:103 elementor/team-member/class.php:337 elementor/team-member/class.php:378 elementor/team-member/class.php:532 elementor/testimonial/class.php:604
+msgid "Margin"
+msgstr "Margem"
+
+#: elementor/testimonial/class.php:174
+msgid "Maria Zokatti"
+msgstr "Maria Zokatti"
+
+#: widgets/advanced-filter.php:365
+msgid "max"
+msgstr "máx."
+
+#: widgets/advanced-search.php:194
+msgid "Maximum Price"
+msgstr "Preço máximo"
+
+#: elementor/listing-locations/class.php:217 elementor/testimonial/class.php:442
+msgid "Medium Desktop items"
+msgstr "Itens em computador médio"
+
+#: inc/post-meta.php:72
+msgid "Menu Alignment"
+msgstr "Alinhamento do menu"
+
+#: elementor/base.php:144
+msgid "Menu Order"
+msgstr "Ordem do menu"
+
+#: elementor/posts/class.php:625
+msgid "Meta Color"
+msgstr "Cor meta"
+
+#: elementor/posts/class.php:646
+msgid "Meta Color Hover"
+msgstr "Cor meta ao passar o rato"
+
+#: elementor/posts/class.php:598
+msgid "Meta Info Style"
+msgstr "Estilo das informações meta"
+
+#: elementor/infobox/class.php:168
+msgid "Middle"
+msgstr "Meio"
+
+#: widgets/advanced-filter.php:406
+msgid "Miles"
+msgstr "Milhas"
+
+#: widgets/advanced-filter.php:363
+msgid "min"
+msgstr "mín."
+
+#: widgets/advanced-search.php:190
+msgid "Minimum Price"
+msgstr "Preço mínimo"
+
+#: elementor/listing-locations/class.php:235 elementor/testimonial/class.php:478
+msgid "Mobile items"
+msgstr "Itens em telemóvel"
+
+#: elementor/base.php:140
+msgid "Modified"
+msgstr "Modificado"
+
+#: elementor/posts/class.php:778
+msgid "More Details"
+msgstr "Mais detalhes"
+
+#: elementor/image-box/class.php:107
+msgid "Mouse Moving Shape"
+msgstr "Forma em movimento com o rato"
+
+#: elementor/team-member/class.php:63 elementor/team-member/class.php:299 elementor/testimonial/class.php:78
+msgid "Name"
+msgstr "Nome"
+
+#: elementor/testimonial/class.php:584
+msgid "Name Color"
+msgstr "Cor do nome"
+
+#: elementor/testimonial/class.php:576
+msgid "Name Settings"
+msgstr "Definições do nome"
+
+#: elementor/testimonial/class.php:595
+msgid "Name Typography"
+msgstr "Tipografia do nome"
+
+#: elementor/listing-promotions-filter/class.php:47 elementor/listing-promotions-filter/class.php:398
+msgid "New"
+msgstr "Novo"
+
+#: elementor/infobox/class.php:1242 elementor/testimonial/class.php:341 elementor/testimonial/class.php:354 elementor/testimonial/class.php:383
+msgid "No"
+msgstr "Não"
+
+#: elementor/posts/class.php:686
+msgid "No Avatar"
+msgstr "Sem avatar"
+
+#: elementor/posts/view-1.php:155 elementor/posts/view-3.php:156 elementor/posts/view-2.php:126
+msgid "No Comment"
+msgstr "Sem comentários"
+
+#: elementor/listing-promotions-filter/view.php:90
+msgid "No Items Available"
+msgstr "Não há itens disponíveis"
+
+#: elementor/hooks.php:230 elementor/listing-locations/class.php:267 elementor/posts/class.php:467 elementor/posts/class.php:618 elementor/posts/class.php:803 elementor/title/class.php:317 elementor/advanced-search/class.php:788 elementor/video-button/class.php:311 elementor/infobox/class.php:368 elementor/infobox/class.php:607 elementor/infobox/class.php:966 elementor/button/class.php:126 elementor/team-member/class.php:454
+msgid "Normal"
+msgstr "Normal"
+
+#: elementor/infobox/class.php:538
+msgid "Number Box"
+msgstr "Caixa numérica"
+
+#: elementor/infobox/class.php:630
+msgid "Number Box Background"
+msgstr "Fundo da caixa numérica"
+
+#: elementor/infobox/class.php:679
+msgid "Number Box Hover Background"
+msgstr "Fundo da caixa numérica ao passar o rato"
+
+#: elementor/posts/class.php:214
+msgid "Number of comments"
+msgstr "Número de comentários"
+
+#: elementor/listing-promotions-filter/class.php:58
+msgid "Number of Items per"
+msgstr "Número de itens por"
+
+#: widgets/post.php:135
+msgid "Number of Post"
+msgstr "Número de publicações"
+
+#: elementor/posts/class.php:189
+msgid "Number of post to displace or pass over. The offset parameter is ignored when post limit => -1 (show all posts) is used."
+msgstr "Número de publicações a deslocar ou saltar. O parâmetro de deslocamento é ignorado quando se utiliza limite de publicações => -1 (mostrar todas as publicações)."
+
+#: elementor/listing-promotions-filter/class.php:244
+msgid "Number of Responsive Columns"
+msgstr "Número de colunas responsivas"
+
+#: elementor/el-extend.php:151
+msgid "Number part minimun width (optional)"
+msgstr "Largura mínima da parte numérica (opcional)"
+
+#: elementor/infobox/class.php:547
+msgid "Number Text"
+msgstr "Texto numérico"
+
+#: elementor/el-extend.php:215
+msgid "Number Typography"
+msgstr "Tipografia numérica"
+
+#: elementor/hooks.php:369 elementor/hooks.php:412 elementor/hooks.php:425 elementor/hooks.php:437 elementor/hooks.php:449 elementor/el-extend.php:30 elementor/el-extend.php:58 elementor/el-extend.php:75 elementor/el-extend.php:103 elementor/listing-locations/class.php:103 elementor/listing-locations/class.php:122 elementor/listing-promotions-filter/class.php:70 elementor/listing-promotions-filter/class.php:114 elementor/listing-promotions-filter/class.php:125 elementor/listing-promotions-filter/class.php:136 elementor/listing-promotions-filter/class.php:147 elementor/listing-promotions-filter/class.php:158 elementor/listing-promotions-filter/class.php:177 elementor/listing-promotions-filter/class.php:188 elementor/listing-promotions-filter/class.php:199 elementor/listing-promotions-filter/class.php:210 elementor/listing-promotions-filter/class.php:221 elementor/listing-promotions-filter/class.php:232
+msgid "Off"
+msgstr "Desativado"
+
+#: elementor/hooks.php:368 elementor/hooks.php:411 elementor/hooks.php:424 elementor/hooks.php:436 elementor/hooks.php:448 elementor/el-extend.php:31 elementor/el-extend.php:76 elementor/listing-locations/class.php:102 elementor/listing-locations/class.php:121 elementor/listing-promotions-filter/class.php:69 elementor/listing-promotions-filter/class.php:113 elementor/listing-promotions-filter/class.php:124 elementor/listing-promotions-filter/class.php:135 elementor/listing-promotions-filter/class.php:146 elementor/listing-promotions-filter/class.php:157 elementor/listing-promotions-filter/class.php:176 elementor/listing-promotions-filter/class.php:187 elementor/listing-promotions-filter/class.php:198 elementor/listing-promotions-filter/class.php:209 elementor/listing-promotions-filter/class.php:220 elementor/listing-promotions-filter/class.php:231
+msgid "On"
+msgstr "Ativado"
+
+#: elementor/el-extend.php:57 elementor/el-extend.php:102
+msgid "on"
+msgstr "ativado"
+
+#: elementor/listing-promotions-filter/class.php:123
+msgid "On/Off Status"
+msgstr "Estado ligado/desligado"
+
+#: elementor/faq/class.php:402
+msgid "Open Item Style"
+msgstr "Estilo do item aberto"
+
+#: elementor/listing-promotions-filter/class.php:127
+msgid "Open or Close status tag on/off"
+msgstr "Etiqueta de estado aberto ou fechado ligada/desligada"
+
+#: elementor/listing-promotions-filter/class.php:79
+msgid "Order By"
+msgstr "Ordenar por"
+
+#: widgets/post.php:130 elementor/posts/class.php:206
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: elementor/posts/class.php:210
+msgid "Order by post ID"
+msgstr "Ordenar por ID da publicação"
+
+#: widgets/advanced-search.php:140 elementor/advanced-search/class.php:70
+msgid "Orientation"
+msgstr "Orientação"
+
+#: elementor/image-box/class.php:58
+msgid "Other Images"
+msgstr "Outras imagens"
+
+#: elementor/title/class.php:352 elementor/advanced-search/class.php:250 elementor/advanced-search/class.php:823 elementor/faq/class.php:213 elementor/faq/class.php:264 elementor/video-button/class.php:354 elementor/infobox/class.php:348 elementor/infobox/class.php:855 elementor/infobox/class.php:1019 elementor/infobox/class.php:1147 elementor/button/class.php:114 elementor/stroke-title/class.php:114 elementor/team-member/class.php:194 elementor/team-member/class.php:266
+msgid "Padding"
+msgstr "Espaçamento"
+
+#: elementor/el-extend.php:28 elementor/el-extend.php:73
+msgid "Parallax"
+msgstr "Paralaxe"
+
+#: elementor/el-extend.php:55 elementor/el-extend.php:100
+msgid "Parallax Transition off?"
+msgstr "Desativar transição paralaxe?"
+
+#: elementor/base.php:141
+msgid "Parent"
+msgstr "Ascendente"
+
+#: widgets/contact.php:121 elementor/listing-promotions-filter/class.php:197
+msgid "Phone"
+msgstr "Telefone"
+
+#: widgets/about.php:140
+msgid "Phone Label"
+msgstr "Rótulo do telefone"
+
+#: widgets/about.php:144 elementor/listing-promotions-filter/class.php:201
+msgid "Phone Number"
+msgstr "Número de telefone"
+
+#: elementor/listing-promotions-filter/class.php:278
+msgid "Phones: > 575px"
+msgstr "Telefones: > 575px"
+
+#: elementor/team-member/class.php:56 elementor/team-member/class.php:219
+msgid "Picture"
+msgstr "Fotografia"
+
+#: elementor/video-button/class.php:258
+msgid "Play Button Style"
+msgstr "Estilo do botão de reprodução"
+
+#: widgets/about.php:157
+msgid "Play Store Image"
+msgstr "Imagem da Play Store"
+
+#: widgets/about.php:161
+msgid "Play Store URL"
+msgstr "URL da Play Store"
+
+#: elementor/listing-locations/view-4.php:46 elementor/listing-locations/view-1.php:46 elementor/listing-locations/view-3.php:46 elementor/listing-locations/view-2.php:46
+msgid "Please Select a Location and Background image"
+msgstr "Selecione uma localização e uma imagem de fundo"
+
+#: elementor/listing-promotions-filter/class.php:45 elementor/listing-promotions-filter/class.php:399
+msgid "Popular"
+msgstr "Populares"
+
+#: widgets/advanced-search.php:151 elementor/advanced-search/class.php:190
+msgid "Popup"
+msgstr "Pop-up"
+
+#: elementor/posts/class.php:22
+msgid "Post"
+msgstr "Publicação"
+
+#: elementor/base.php:137
+msgid "Post Author"
+msgstr "Autor da publicação"
+
+#: elementor/posts/class.php:240
+msgid "Post Box"
+msgstr "Caixa da publicação"
+
+#: elementor/posts/class.php:312
+msgid "Post Content Style"
+msgstr "Estilo do conteúdo da publicação"
+
+#: elementor/base.php:136
+msgid "Post Id"
+msgstr "ID da publicação"
+
+#: elementor/posts/class.php:115
+msgid "Post Limit"
+msgstr "Limite de publicações"
+
+#: elementor/posts/class.php:186
+msgid "Post offset"
+msgstr "Deslocamento da publicação"
+
+#: elementor/posts/class.php:46
+msgid "Post Settings"
+msgstr "Definições da publicação"
+
+#: elementor/posts/class.php:126
+msgid "Post Source"
+msgstr "Origem da publicação"
+
+#: widgets/advanced-filter.php:376
+msgid "Price Range"
+msgstr "Intervalo de preço"
+
+#: elementor/advanced-search/class.php:169
+msgid "Price Range Max"
+msgstr "Intervalo de preço máximo"
+
+#: elementor/advanced-search/class.php:160
+msgid "Price Range Min"
+msgstr "Intervalo de preço mínimo"
+
+#: elementor/advanced-search/class.php:727
+msgid "Pricing"
+msgstr "Preçário"
+
+#: elementor/faq/class.php:67
+msgid "Put here faq title"
+msgstr "Introduza aqui o título da FAQ"
+
+#: elementor/testimonial/class.php:199 elementor/testimonial/class.php:714
+msgid "Quote Icon"
+msgstr "Ícone de citação"
+
+#: elementor/testimonial/class.php:706
+msgid "Quote Settings"
+msgstr "Definições da citação"
+
+#: widgets/advanced-filter.php:410 elementor/posts/class.php:413 elementor/posts/class.php:844 elementor/video-button/class.php:374 elementor/infobox/class.php:403 elementor/infobox/class.php:451 elementor/infobox/class.php:643 elementor/infobox/class.php:1206 elementor/button/class.php:177 elementor/stroke-title/class.php:133 elementor/team-member/class.php:285 elementor/team-member/class.php:543
+msgid "Radius"
+msgstr "Raio"
+
+#: widgets/advanced-filter.php:420
+msgid "Radius Search"
+msgstr "Pesquisa por raio"
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#: elementor/base.php:142
+msgid "Random"
+msgstr "Aleatório"
+
+#: elementor/posts/class.php:215
+msgid "Random order"
+msgstr "Ordem aleatória"
+
+#: elementor/testimonial/class.php:113 elementor/testimonial/class.php:209
+msgid "Rating"
+msgstr "Classificação"
+
+#: elementor/testimonial/class.php:115
+msgid "Rating 1"
+msgstr "Classificação 1"
+
+#: elementor/testimonial/class.php:116
+msgid "Rating 2"
+msgstr "Classificação 2"
+
+#: elementor/testimonial/class.php:117
+msgid "Rating 3"
+msgstr "Classificação 3"
+
+#: elementor/testimonial/class.php:118
+msgid "Rating 4"
+msgstr "Classificação 4"
+
+#: elementor/testimonial/class.php:119
+msgid "Rating 5"
+msgstr "Classificação 5"
+
+#: elementor/testimonial/class.php:675
+msgid "Rating Settings"
+msgstr "Definições da classificação"
+
+#: elementor/testimonial/class.php:58
+msgid "Reviewer Image"
+msgstr "Imagem do avaliador"
+
+#: elementor/hooks.php:60 elementor/hooks.php:82 elementor/hooks.php:119 elementor/base.php:76 elementor/el-extend.php:188 elementor/faq/class.php:150 elementor/infobox/class.php:90 elementor/infobox/class.php:113 elementor/infobox/class.php:142 elementor/infobox/class.php:201
+msgid "Right"
+msgstr "Direita"
+
+#: inc/post-meta.php:78
+msgid "Right Alignment"
+msgstr "Alinhamento à direita"
+
+#: inc/post-meta.php:48
+msgid "Right Sidebar"
+msgstr "Barra lateral direita"
+
+#: elementor/stroke-title/class.php:142
+msgid "Rotation"
+msgstr "Rotação"
+
+#: elementor/video-button/class.php:176
+msgid "Round Text Box"
+msgstr "Caixa de texto redonda"
+
+#: elementor/listing-locations/class.php:186
+msgid "Rows Gap"
+msgstr "Espaço entre linhas"
+
+#: widgets/advanced-search.php:178 elementor/advanced-search/class.php:93
+msgid "Search by Category"
+msgstr "Pesquisar por categoria"
+
+#: widgets/advanced-search.php:182
+msgid "Search by Custom Fields"
+msgstr "Pesquisar por campos personalizados"
+
+#: elementor/advanced-search/class.php:115
+msgid "Search by Geo Location"
+msgstr "Pesquisar por geolocalização"
+
+#: widgets/advanced-search.php:170
+msgid "Search by Google Location"
+msgstr "Pesquisar por localização do Google"
+
+#: widgets/advanced-search.php:162 elementor/advanced-search/class.php:148
+msgid "Search by Keyword"
+msgstr "Pesquisar por palavra-chave"
+
+#: widgets/advanced-search.php:158
+msgid "Search by Listing Types"
+msgstr "Pesquisar por tipos de anúncio"
+
+#: widgets/advanced-search.php:166
+msgid "Search by Local Location"
+msgstr "Pesquisar por localização local"
+
+#: elementor/advanced-search/class.php:104
+msgid "Search by Location"
+msgstr "Pesquisar por localização"
+
+#: widgets/advanced-search.php:186 elementor/advanced-search/class.php:137
+msgid "Search by Price"
+msgstr "Pesquisar por preço"
+
+#: widgets/advanced-search.php:174
+msgid "Search by Radius Distance"
+msgstr "Pesquisar por distância do raio"
+
+#: elementor/advanced-search/class.php:126
+msgid "Search by Radius Location"
+msgstr "Pesquisar por localização do raio"
+
+#: elementor/advanced-search/class.php:82
+msgid "Search by Type"
+msgstr "Pesquisar por tipo"
+
+#: widgets/advanced-search.php:148
+msgid "Search Style"
+msgstr "Estilo da pesquisa"
+
+#: elementor/title/class.php:22
+msgid "Section Title"
+msgstr "Título da secção"
+
+#. phpcs:ignore WordPress.Security.NonceVerification.Recommended
+#: widgets/advanced-filter.php:409
+msgid "Select a location"
+msgstr "Selecionar uma localização"
+
+#: elementor/listing-locations/class.php:56
+msgid "Select Location"
+msgstr "Selecionar localização"
+
+#: elementor/listing-locations/class.php:68
+msgid "Select location background image"
+msgstr "Selecionar imagem de fundo da localização"
+
+#: inc/category.php:48 inc/category.php:74
+msgid "Select one"
+msgstr "Selecionar um"
+
+#: elementor/posts/class.php:164
+msgid "Select post category's."
+msgstr "Selecionar a categoria da publicação."
+
+#: elementor/posts/class.php:179
+msgid "Select post tag's."
+msgstr "Selecionar as etiquetas da publicação."
+
+#: elementor/posts/class.php:149
+msgid "Select post title's."
+msgstr "Selecionar os títulos das publicações."
+
+#: elementor/posts/class.php:135
+msgid "Select posts source that you like to show."
+msgstr "Selecione a origem das publicações que deseja mostrar."
+
+#: elementor/image-box/class.php:114
+msgid "Shape 1"
+msgstr "Forma 1"
+
+#: elementor/image-box/class.php:124
+msgid "Shape 2"
+msgstr "Forma 2"
+
+#: elementor/image-box/class.php:134
+msgid "Shape 3"
+msgstr "Forma 3"
+
+#: elementor/posts/class.php:670 elementor/posts/class.php:699 elementor/posts/class.php:711 elementor/posts/class.php:736 elementor/advanced-search/class.php:84 elementor/advanced-search/class.php:95 elementor/advanced-search/class.php:106 elementor/advanced-search/class.php:117 elementor/advanced-search/class.php:128 elementor/advanced-search/class.php:139 elementor/advanced-search/class.php:150 elementor/faq/class.php:97 elementor/testimonial/class.php:211 elementor/testimonial/class.php:314 elementor/testimonial/class.php:327 elementor/testimonial/class.php:509
+msgid "Show"
+msgstr "Mostrar"
+
+#: elementor/hooks.php:447
+msgid "Show Appointment Button"
+msgstr "Mostrar botão de marcação"
+
+#: elementor/hooks.php:410
+msgid "Show Designation"
+msgstr "Mostrar cargo"
+
+#: elementor/listing-locations/class.php:101
+msgid "Show Listing Counts"
+msgstr "Mostrar contagens de anúncios"
+
+#: widgets/advanced-filter.php:326
+msgid "Show More"
+msgstr "Mostrar mais"
+
+#: elementor/hooks.php:451
+msgid "Show or Hide Appointment Button. Default: On"
+msgstr "Mostrar ou ocultar o botão de marcação. Predefinição: Ativado"
+
+#: elementor/hooks.php:414
+msgid "Show or Hide Designation. Default: On"
+msgstr "Mostrar ou ocultar o cargo. Predefinição: Ativado"
+
+#: elementor/hooks.php:439
+msgid "Show or Hide Reviews. Default: On"
+msgstr "Mostrar ou ocultar as avaliações. Predefinição: Ativado"
+
+#: elementor/hooks.php:427
+msgid "Show or Hide Time. Default: On"
+msgstr "Mostrar ou ocultar a hora. Predefinição: Ativado"
+
+#: elementor/hooks.php:435
+msgid "Show Reviews"
+msgstr "Mostrar avaliações"
+
+#: elementor/hooks.php:423
+msgid "Show Time"
+msgstr "Mostrar hora"
+
+#: elementor/testimonial/class.php:130
+msgid "Slider"
+msgstr "Slider"
+
+#: elementor/testimonial/class.php:157
+msgid "Slider layout 1"
+msgstr "Esquema do slider 1"
+
+#: elementor/testimonial/class.php:158
+msgid "Slider layout 2"
+msgstr "Esquema do slider 2"
+
+#: elementor/testimonial/class.php:159
+msgid "Slider layout 3"
+msgstr "Esquema do slider 3"
+
+#: elementor/testimonial/class.php:292
+msgid "Slider Per Group"
+msgstr "Slider por grupo"
+
+#: elementor/testimonial/class.php:272
+msgid "Slider Per View"
+msgstr "Slider por vista"
+
+#: elementor/listing-locations/class.php:244
+msgid "Small Mobile items"
+msgstr "Itens em telemóvel pequeno"
+
+#: elementor/listing-promotions-filter/class.php:287
+msgid "Small Phones: < 576px"
+msgstr "Telefones pequenos: < 576px"
+
+#: elementor/team-member/class.php:392
+msgid "Social Buttons"
+msgstr "Botões de redes sociais"
+
+#: elementor/team-member/class.php:112
+msgid "Social List"
+msgstr "Lista de redes sociais"
+
+#: elementor/posts/class.php:223
+msgid "Sort order"
+msgstr "Ordem de classificação"
+
+#: elementor/testimonial/class.php:406
+msgid "Space"
+msgstr "Espaço"
+
+#: elementor/el-extend.php:40 elementor/el-extend.php:85 elementor/testimonial/class.php:394
+msgid "Speed"
+msgstr "Velocidade"
+
+#: widgets/advanced-search.php:154 elementor/advanced-search/class.php:189
+msgid "Standard"
+msgstr "Padrão"
+
+#: elementor/testimonial/class.php:693
+msgid "Star Active Color"
+msgstr "Cor da estrela ativa"
+
+#: elementor/testimonial/class.php:683
+msgid "Star Color"
+msgstr "Cor da estrela"
+
+#: elementor/stroke-title/class.php:21
+msgid "Stroke Title"
+msgstr "Título com contorno"
+
+#: elementor/el-extend.php:136 elementor/listing-locations/class.php:42 elementor/posts/class.php:54 elementor/advanced-search/class.php:185 elementor/image-box/class.php:37 elementor/infobox/class.php:55 elementor/infobox/class.php:815 elementor/stroke-title/class.php:76
+msgid "Style"
+msgstr "Estilo"
+
+#: elementor/listing-locations/class.php:44 elementor/posts/class.php:58 elementor/image-box/class.php:39 elementor/video-button/class.php:51 elementor/infobox/class.php:59 elementor/button/class.php:48
+msgid "Style 1"
+msgstr "Estilo 1"
+
+#: elementor/infobox/class.php:68
+msgid "Style 10"
+msgstr "Estilo 10"
+
+#: elementor/infobox/class.php:69
+msgid "Style 11"
+msgstr "Estilo 11"
+
+#: elementor/infobox/class.php:70
+msgid "Style 12"
+msgstr "Estilo 12"
+
+#: elementor/listing-locations/class.php:45 elementor/posts/class.php:59 elementor/image-box/class.php:40 elementor/video-button/class.php:52 elementor/infobox/class.php:60 elementor/button/class.php:49
+msgid "Style 2"
+msgstr "Estilo 2"
+
+#: elementor/hooks.php:67 elementor/listing-locations/class.php:46 elementor/posts/class.php:60 elementor/infobox/class.php:61
+msgid "Style 3"
+msgstr "Estilo 3"
+
+#: elementor/hooks.php:535 elementor/listing-locations/class.php:47 elementor/infobox/class.php:62
+msgid "Style 4"
+msgstr "Estilo 4"
+
+#: elementor/infobox/class.php:63
+msgid "Style 5"
+msgstr "Estilo 5"
+
+#: elementor/hooks.php:339 elementor/hooks.php:351 elementor/infobox/class.php:64
+msgid "Style 6"
+msgstr "Estilo 6"
+
+#: elementor/hooks.php:343 elementor/hooks.php:355 elementor/infobox/class.php:65
+msgid "Style 7"
+msgstr "Estilo 7"
+
+#: elementor/infobox/class.php:66
+msgid "Style 8"
+msgstr "Estilo 8"
+
+#: elementor/infobox/class.php:67
+msgid "Style 9"
+msgstr "Estilo 9"
+
+#: widgets/advanced-search.php:202
+msgid "Style Class"
+msgstr "Classe de estilo"
+
+#: elementor/video-button/class.php:49 elementor/button/class.php:46 elementor/button/class.php:86
+msgid "Styles"
+msgstr "Estilos"
+
+#: elementor/title/class.php:48 elementor/title/class.php:187
+msgid "Sub Title"
+msgstr "Subtítulo"
+
+#: elementor/title/class.php:195
+msgid "Sub Title Style"
+msgstr "Estilo do subtítulo"
+
+#: elementor/listing-locations/class.php:226 elementor/testimonial/class.php:460
+msgid "Tablet items"
+msgstr "Itens em tablet"
+
+#: elementor/listing-promotions-filter/class.php:269
+msgid "Tablets: > 767px"
+msgstr "Tablets: > 767px"
+
+#: widgets/advanced-filter.php:248
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: elementor/team-member/class.php:22
+msgid "Team Member"
+msgstr "Membro da equipa"
+
+#: elementor/testimonial/class.php:23
+msgid "Testimonial"
+msgstr "Testemunho"
+
+#: elementor/testimonial/class.php:147 elementor/testimonial/class.php:162
+msgid "Testimonial Layout. Default: 1"
+msgstr "Esquema do testemunho. Predefinição: 1"
+
+#: elementor/testimonial/class.php:134
+msgid "Testimonial Layout. Default: Grid"
+msgstr "Esquema do testemunho. Predefinição: Grelha"
+
+#: elementor/testimonial/class.php:169
+msgid "Testimonial List"
+msgstr "Lista de testemunhos"
+
+#: elementor/title/class.php:81 elementor/video-button/class.php:61 elementor/button/class.php:58
+msgid "Text"
+msgstr "Texto"
+
+#: elementor/infobox/class.php:131 elementor/infobox/class.php:190
+msgid "Text Alignment left/right"
+msgstr "Alinhamento do texto esquerda/direita"
+
+#: elementor/infobox/class.php:161
+msgid "Text Alignment top/bottom"
+msgstr "Alinhamento do texto cima/baixo"
+
+#: elementor/faq/class.php:236
+msgid "Text Style"
+msgstr "Estilo do texto"
+
+#: inc/category.php:160 inc/category.php:174
+msgid "This is category background color."
+msgstr "Esta é a cor de fundo da categoria."
+
+#. Description of the plugin
+msgid "This plugin is developed for CLDoctor Theme."
+msgstr "Este plugin foi desenvolvido para o tema CLDoctor."
+
+#: elementor/testimonial/class.php:507
+msgid "Thumb"
+msgstr "Miniatura"
+
+#: elementor/testimonial/class.php:538
+msgid "Thumb Size Height"
+msgstr "Altura do tamanho da miniatura"
+
+#: elementor/testimonial/class.php:518
+msgid "Thumb Size Width"
+msgstr "Largura do tamanho da miniatura"
+
+#: elementor/listing-promotions-filter/class.php:104
+msgid "Thumbnail Area Control"
+msgstr "Controlo da área da miniatura"
+
+#: widgets/post.php:139
+msgid "Thumbnail Image"
+msgstr "Imagem da miniatura"
+
+#: elementor/posts/class.php:347 elementor/testimonial/class.php:500
+msgid "Thumbnail Style"
+msgstr "Estilo da miniatura"
+
+#: elementor/posts/class.php:726
+msgid "Time Ago Format"
+msgstr "Formato de tempo decorrido"
+
+#: elementor/base.php:138 widgets/newsletter.php:85 widgets/post.php:115 widgets/post.php:121 widgets/contact.php:109 widgets/advanced-search.php:136 widgets/about.php:128 elementor/posts/class.php:212 elementor/title/class.php:39 elementor/title/class.php:113 elementor/advanced-search/class.php:62 elementor/advanced-search/class.php:285 elementor/faq/class.php:65 elementor/infobox/class.php:709 elementor/infobox/class.php:717 elementor/stroke-title/class.php:38 elementor/listing-promotions-filter/class.php:82
+msgid "Title"
+msgstr "Título"
+
+#: elementor/faq/class.php:194
+msgid "Title Active Color"
+msgstr "Cor do título ativo"
+
+#: elementor/title/class.php:98 elementor/image-box/class.php:87 elementor/team-member/class.php:95 elementor/testimonial/class.php:221
+msgid "Title Alignment"
+msgstr "Alinhamento do título"
+
+#: elementor/posts/class.php:446
+msgid "Title Character Limit"
+msgstr "Limite de caracteres do título"
+
+#: elementor/listing-locations/class.php:289 elementor/listing-locations/class.php:369 elementor/posts/class.php:473 elementor/faq/class.php:184
+msgid "Title Color"
+msgstr "Cor do título"
+
+#: elementor/posts/class.php:492
+msgid "Title Hover Color"
+msgstr "Cor do título ao passar o rato"
+
+#: elementor/el-extend.php:205 elementor/listing-locations/class.php:315 elementor/posts/class.php:454
+msgid "Title Margin"
+msgstr "Margem do título"
+
+#: elementor/posts/class.php:432 elementor/title/class.php:121 elementor/faq/class.php:175 elementor/infobox/class.php:742
+msgid "Title Style"
+msgstr "Estilo do título"
+
+#: elementor/listing-locations/class.php:305 elementor/faq/class.php:204
+msgid "Title Typography"
+msgstr "Tipografia do título"
+
+#: elementor/infobox/class.php:86 elementor/infobox/class.php:164 elementor/listing-promotions-filter/class.php:48 elementor/listing-promotions-filter/class.php:400
+msgid "Top"
+msgstr "Topo"
+
+#: widgets/advanced-filter.php:337 elementor/advanced-search/class.php:325
+msgid "Type"
+msgstr "Tipo"
+
+#: elementor/advanced-search/class.php:461
+msgid "Type Active Button Background"
+msgstr "Fundo do botão de tipo ativo"
+
+#: elementor/advanced-search/class.php:395 elementor/advanced-search/class.php:399 elementor/advanced-search/class.php:465
+msgid "Type Button Background"
+msgstr "Fundo do botão de tipo"
+
+#: elementor/advanced-search/class.php:433
+msgid "Type Button Border Radius"
+msgstr "Raio do contorno do botão de tipo"
+
+#: elementor/advanced-search/class.php:422
+msgid "Type Button Margin"
+msgstr "Margem do botão de tipo"
+
+#: elementor/advanced-search/class.php:411
+msgid "Type Button Padding"
+msgstr "Espaçamento do botão de tipo"
+
+#: elementor/advanced-search/class.php:332
+msgid "Type Gap"
+msgstr "Espaço entre tipos"
+
+#: elementor/listing-locations/class.php:301 elementor/listing-locations/class.php:337 elementor/title/class.php:139 elementor/title/class.php:213 elementor/title/class.php:277 elementor/title/class.php:335 elementor/advanced-search/class.php:303 elementor/advanced-search/class.php:387 elementor/advanced-search/class.php:527 elementor/advanced-search/class.php:612 elementor/advanced-search/class.php:690 elementor/advanced-search/class.php:767 elementor/advanced-search/class.php:806 elementor/faq/class.php:255 elementor/faq/class.php:304 elementor/video-button/class.php:194 elementor/video-button/class.php:330 elementor/infobox/class.php:776 elementor/infobox/class.php:846 elementor/infobox/class.php:992 elementor/button/class.php:145 elementor/stroke-title/class.php:94 elementor/team-member/class.php:328 elementor/team-member/class.php:369
+msgid "Typography"
+msgstr "Tipografia"
+
+#: inc/category.php:112 inc/category.php:132
+msgid "Upload an Image"
+msgstr "Carregar uma imagem"
+
+#: inc/category.php:110
+msgid "Upload and Image"
+msgstr "Carregar uma imagem"
+
+#: elementor/team-member/class.php:226 elementor/testimonial/class.php:781
+msgid "Verticle Slider Height"
+msgstr "Altura do slider vertical"
+
+#: elementor/video-button/class.php:22 elementor/video-button/class.php:41
+msgid "Video Button"
+msgstr "Botão de vídeo"
+
+#: elementor/listing-promotions-filter/class.php:230
+msgid "Views"
+msgstr "Visualizações"
+
+#: elementor/listing-promotions-filter/class.php:95
+msgid "Visibility"
+msgstr "Visibilidade"
+
+#: elementor/posts/class.php:358 elementor/posts/class.php:524 elementor/posts/class.php:761 elementor/infobox/class.php:900
+msgid "Visible"
+msgstr "Visível"
+
+#: elementor/testimonial/class.php:187
+msgid "Web Designer"
+msgstr "Web Designer"
+
+#: elementor/listing-promotions-filter/class.php:208 elementor/listing-promotions-filter/class.php:212
+msgid "Website"
+msgstr "Site"
+
+#: elementor/el-extend.php:149 elementor/faq/class.php:326 elementor/video-button/class.php:100 elementor/video-button/class.php:209 elementor/video-button/class.php:265 elementor/infobox/class.php:291 elementor/infobox/class.php:558
+msgid "Width"
+msgstr "Largura"
+
+#: widgets/post.php:142
+msgid "With Thumbnail"
+msgstr "Com miniatura"
+
+#: widgets/post.php:143
+msgid "Without Thumbnail"
+msgstr "Sem miniatura"
+
+#: elementor/testimonial/class.php:181
+msgid "WordPress Developer"
+msgstr "Programador WordPress"
+
+#: elementor/listing-promotions-filter/class.php:60
+msgid "Write -1 to show all"
+msgstr "Escreva -1 para mostrar todos"
+
+#: elementor/infobox/class.php:1241 elementor/testimonial/class.php:340 elementor/testimonial/class.php:353 elementor/testimonial/class.php:382
+msgid "Yes"
+msgstr "Sim"

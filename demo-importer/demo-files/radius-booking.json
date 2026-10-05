@@ -1,0 +1,1773 @@
+{
+  "metadata": {
+    "plugin": "radius-booking",
+    "version": "1.0.14",
+    "exported_at": "2026-05-21T08:53:26+00:00",
+    "site_url": "https://www.radiustheme.com/demo/wordpress/themes/cldoctor",
+    "modules": [
+      "settings",
+      "category",
+      "location",
+      "service",
+      "staff",
+      "customer",
+      "appointment"
+    ],
+    "counts": {
+      "settings": 55,
+      "category": 1,
+      "location": 0,
+      "service": 1,
+      "staff": 13,
+      "customer": 5,
+      "appointment": 5
+    }
+  },
+  "data": {
+    "settings": {
+      "exported_at": "2026-05-21 08:53:27",
+      "plugin_version": "1.0.14",
+      "settings": {
+        "auth": {
+          "useWordPressUsers": true,
+          "allowCustomerRegistration": true,
+          "requirePasswordOnRegister": true,
+          "removeLoginRegisterTabs": false,
+          "hideCreateAccountPrompt": false,
+          "mandatoryEmail": true
+        },
+        "bookingBuffer": {
+          "useServiceDuration": true,
+          "includeBufferTime": true
+        },
+        "business": {
+          "logoUrl": "",
+          "companyName": "RadiusTheme",
+          "phone": "+8801254896300",
+          "address": "R-3, House-55"
+        },
+        "chatbot": {
+          "enabled": false,
+          "showFormToggle": false,
+          "provider": "openai",
+          "apiKey": "",
+          "geminiApiKey": "",
+          "model": "gpt-4o-mini",
+          "geminiModel": "gemini-3-flash-preview",
+          "maxTokens": 1024,
+          "temperature": 0.7,
+          "displayMode": "all_pages",
+          "specificPages": [],
+          "welcomeMessage": "Hi! I'm your booking assistant. How can I help you today?",
+          "botName": "Booking Assistant",
+          "primaryColor": "#0040ff",
+          "position": "bottom-right",
+          "responseStyle": "text",
+          "bubbleIcon": "chat",
+          "bubbleImage": "",
+          "poweredBy": "Powered by Radius Booking"
+        },
+        "chatbotKnowledge": [
+          {
+            "id": "default-cancellation",
+            "question": "What is your cancellation policy?",
+            "answer": "You can cancel your appointment up to 24 hours before the scheduled time. Please contact us or use the My Bookings page to cancel.",
+            "category": "policy"
+          },
+          {
+            "id": "default-reschedule",
+            "question": "Can I reschedule my appointment?",
+            "answer": "Yes, you can reschedule your appointment up to 12 hours before the scheduled time through the My Bookings page.",
+            "category": "policy"
+          },
+          {
+            "id": "default-payment",
+            "question": "What payment methods do you accept?",
+            "answer": "We accept various payment methods including online payments and pay-at-venue options. Check the booking form for available methods.",
+            "category": "payment"
+          }
+        ],
+        "cl_bookings_endpoint_flushed": [],
+        "cl_default_service_id": [],
+        "currency": {
+          "symbol": "USD",
+          "symbolPosition": "before",
+          "thousand": ",",
+          "decimal": ".",
+          "decimals": 2,
+          "hideBreakdownIfZero": true
+        },
+        "customer": {
+          "allowReschedule": false,
+          "allowCancel": false
+        },
+        "customSchedules": [],
+        "dateTime": {
+          "timeSystem": "12h",
+          "dateFormat": "m/d/Y",
+          "selectableInterval": 30,
+          "showAppointmentEndTime": true,
+          "verboseDates": false,
+          "numericMonth": true
+        },
+        "display": {
+          "frontendItemsPerPage": 10,
+          "backendItemsPerPage": 20,
+          "defaultBackendPage": "appointments",
+          "showClientTimezone": true,
+          "showAddToCalendar": true
+        },
+        "email_admin_new_appointment": [],
+        "email_admin_new_event": [],
+        "email_admin_new_meeting": [],
+        "email_customer_appointment_cancelled": [],
+        "email_customer_appointment_completed": [],
+        "email_customer_appointment_confirmed": [],
+        "email_customer_appointment_pending": [],
+        "email_customer_appointment_reminder": [],
+        "email_customer_event_registration_cancelled": [],
+        "email_customer_event_registration_confirmed": [],
+        "email_customer_event_reminder": [],
+        "email_customer_meeting_cancelled": [],
+        "email_customer_meeting_confirmed": [],
+        "email_customer_meeting_reminder": [],
+        "email_employee_appointment_cancelled": [],
+        "email_employee_appointment_confirmed": [],
+        "email_employee_appointment_pending": [],
+        "email_employee_appointment_reminder": [],
+        "email_employee_event_registration_cancelled": [],
+        "email_employee_event_registration_confirmed": [],
+        "email_employee_event_reminder": [],
+        "email_employee_meeting_cancelled": [],
+        "email_employee_meeting_confirmed": [],
+        "email_employee_meeting_reminder": [],
+        "email": {
+          "senderName": "Cldoctor",
+          "senderEmail": "dev-email@wpengine.local",
+          "replyToEmail": ""
+        },
+        "formCustomization": {
+          "design": {
+            "primaryColor": "#0040ff",
+            "secondaryColor": "#E2E8F0",
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#323E5B",
+            "sidebarColor": "",
+            "stepButtonColor": "#00154C",
+            "stepButtonHoverColor": "#062576",
+            "borderColor": "#DAE0E5",
+            "fontFamily": "Inter, ui-sans-serif, system-ui",
+            "borderRadius": "0.75rem",
+            "sidebarImageUrl": ""
+          },
+          "labels": {
+            "services": {
+              "heading": "Easily book your appointments & Get the Service you deserve.",
+              "serviceLabel": "Which Service you want to take",
+              "locationLabel": "Location",
+              "staffLabel": "Choose a Staff",
+              "servicePlaceholder": "Select service",
+              "locationPlaceholder": "Select location",
+              "staffPlaceholder": "Select staff"
+            },
+            "datetime": {
+              "heading": "Date & Time Selection",
+              "subheading": "Select your appointment date and time",
+              "loadingText": "Loading available dates...",
+              "noAvailableText": "No available dates found"
+            },
+            "timeslot": {
+              "heading": "Available Time Slots",
+              "subheading": "Select your appointment date and time",
+              "loadingText": "Loading time slots...",
+              "noSlotsText": "No available time slots for the selected date.",
+              "bringingAnyoneLabel": "Bringing Anyone?",
+              "bringingAnyoneSubLabel": "Add extra people to your booking"
+            },
+            "details": {
+              "heading": "Customer Details",
+              "subheading": "Customer Information",
+              "fullNameLabel": "Full Name",
+              "fullNamePlaceholder": "Enter name here ...",
+              "phoneLabel": "Phone number",
+              "emailLabel": "E-mail",
+              "emailPlaceholder": "Enter e-mail...",
+              "noteLabel": "Note",
+              "notePlaceholder": "Add any additional notes..."
+            },
+            "payment": {
+              "heading": "Payment",
+              "subheading": "Payment Summary",
+              "summaryTitle": "Appointment summary"
+            },
+            "checkout": {
+              "heading": "Checkout",
+              "subheading": "Make your payment",
+              "paymentMethodTitle": "Payment method"
+            },
+            "confirmation": {
+              "heading": "Appointment Confirmed",
+              "subheading": "We Look Forward To Seeing You.",
+              "detailsTitle": "Appointment Details"
+            },
+            "sidebar": {
+              "summaryTitle": "Summary:",
+              "customerTitle": "Customer:",
+              "helpTitle": "Questions?",
+              "helpText": "Call %s for help"
+            }
+          },
+          "buttons": {
+            "nextText": "Next",
+            "backText": "Back",
+            "confirmText": "Continue",
+            "processingText": "Processing…"
+          },
+          "toggles": {
+            "showNoteField": true,
+            "showSidebar": true,
+            "showSidebarImage": true,
+            "showCalendarExport": true,
+            "allowBackNavigation": true
+          }
+        },
+        "holidays": [],
+        "integrations": {
+          "googleMapApiKey": "",
+          "ipLocateApiKey": "",
+          "redirectUrl": "",
+          "attachmentPath": "/wp-content/uploads/bookings",
+          "googleCalendar": {
+            "enabled": false,
+            "clientId": "",
+            "clientSecret": "",
+            "redirectUri": "https://www.radiustheme.com/demo/wordpress/themes/cldoctor/wp-admin/admin.php?page=radius-booking",
+            "twoWaySync": false,
+            "syncOnCreate": true,
+            "syncOnUpdate": true,
+            "syncOnDelete": true,
+            "blockTimeSlots": false,
+            "calendarId": "primary",
+            "eventColor": "9",
+            "auth_url": "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.events&access_type=offline&prompt=consent&state=5ec286b56c",
+            "oauth_nonce": "5ec286b56c"
+          },
+          "classifiedListing": {
+            "enabled": true,
+            "listingMappingMode": "staff",
+            "autoCreateEmployee": true,
+            "defaultDuration": 60,
+            "defaultCategory": 0,
+            "defaultServiceName": "Consultation",
+            "syncPrice": true,
+            "syncDescription": true,
+            "bookNowButtonText": "Book Appointment",
+            "is_cl_active": true
+          },
+          "zoom": {
+            "enabled": false,
+            "accountId": "",
+            "clientId": "",
+            "clientSecret": "",
+            "autoCreateMeeting": true,
+            "requirePassword": true,
+            "enableWaitingRoom": true,
+            "sendInviteEmail": true,
+            "defaultDuration": 60
+          },
+          "appleCalendar": {
+            "enabled": false,
+            "showDownloadLink": true,
+            "enableCalendarFeed": false,
+            "includeLocation": true,
+            "includeDescription": true,
+            "addReminders": true,
+            "reminderMinutes": 60,
+            "calendarName": "My Business Appointments",
+            "organizerEmail": ""
+          }
+        },
+        "languages": [
+          "English",
+          "Assamese"
+        ],
+        "logic": {
+          "exclusiveLocation": true,
+          "singleLocationPerAgent": true
+        },
+        "modules": {
+          "service": true,
+          "meeting": false,
+          "event": false
+        },
+        "pages": {
+          "bookingFormPage": 6116,
+          "myBookingPage": 6117,
+          "meetingBookingPage": 6118,
+          "eventListingPage": 6119,
+          "eventRegistrationPage": 6120
+        },
+        "payment": {
+          "paypal": {
+            "enabled": false,
+            "testMode": true,
+            "liveClientId": "",
+            "liveSecretKey": "",
+            "testClientId": "",
+            "testSecretKey": ""
+          },
+          "offline": {
+            "enabled": true,
+            "label": "Pay at venue",
+            "instructions": "Please bring payment to your appointment. We accept cash, check, and credit cards."
+          },
+          "stripe": {
+            "enabled": false,
+            "testMode": true,
+            "livePublishableKey": "",
+            "liveSecretKey": "",
+            "testPublishableKey": "",
+            "testSecretKey": ""
+          }
+        },
+        "payout": {
+          "enabled": false,
+          "commissionType": "percentage",
+          "commissionRate": 0,
+          "minimumPayoutAmount": 50,
+          "payoutMethods": {
+            "cash": {
+              "enabled": true,
+              "label": "Cash",
+              "description": "Receive payout in cash at the office.",
+              "fields": []
+            },
+            "bank_transfer": {
+              "enabled": true,
+              "label": "Bank Transfer",
+              "description": "Direct bank transfer to your account.",
+              "fields": [
+                {
+                  "key": "bank_name",
+                  "label": "Bank Name",
+                  "type": "text"
+                },
+                {
+                  "key": "account_name",
+                  "label": "Account Holder Name",
+                  "type": "text"
+                },
+                {
+                  "key": "account_number",
+                  "label": "Account Number",
+                  "type": "text"
+                },
+                {
+                  "key": "routing_number",
+                  "label": "Routing / SWIFT",
+                  "type": "text"
+                }
+              ]
+            }
+          }
+        },
+        "permissions": {
+          "multiServiceSameTimeslot": false
+        },
+        "phone": {
+          "showAllCountries": true,
+          "defaultCountry": "US",
+          "mandatory": false,
+          "validateIfRequired": true,
+          "rejectInvalidIfRequired": true,
+          "formatOnInput": false,
+          "showDialCode": true
+        },
+        "restrictions": {
+          "earliest": "+1 hour",
+          "latest": "+6 months",
+          "minCancelTime": "+24 hours",
+          "minRescheduleTime": "+12 hours",
+          "maxFutureBookingsPerCustomer": 0
+        },
+        "security": {
+          "enableRecaptcha": false,
+          "invisibleRecaptcha": true,
+          "recaptchaSiteKey": "",
+          "recaptchaSecretKey": ""
+        },
+        "serviceList": {
+          "layout": "grid",
+          "columns": 3,
+          "perPage": 9,
+          "showImage": true,
+          "showPrice": true,
+          "showDuration": true,
+          "showCategory": true,
+          "showDescription": true,
+          "showCategoryFilter": true,
+          "showStaff": true,
+          "buttonText": "Book Now",
+          "primaryColor": "#0040ff",
+          "cardRadius": "0.75rem"
+        },
+        "staffPermissions": {
+          "canEditService": true,
+          "canCreateService": false,
+          "canDeleteService": true,
+          "canManageStaff": true,
+          "canEditWorkSchedule": true
+        },
+        "statuses": {
+          "default": "pending",
+          "hiddenOnCalendar": [
+            "canceled"
+          ]
+        },
+        "tax": {
+          "enabled": false,
+          "rate": 0,
+          "inclusive": false,
+          "label": "Tax"
+        },
+        "weeklySchedule": {
+          "monday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "22:00"
+          },
+          "tuesday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "22:00"
+          },
+          "wednesday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "22:00"
+          },
+          "thursday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "22:00"
+          },
+          "friday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "22:00"
+          },
+          "saturday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "17:00"
+          },
+          "sunday": {
+            "enabled": true,
+            "start": "09:00",
+            "end": "17:00"
+          }
+        }
+      }
+    },
+    "category": [
+      {
+        "id": "1",
+        "name": "Consultation",
+        "status": "active",
+        "order_number": null,
+        "image_id": "0",
+        "translations": null,
+        "created_at": "2026-05-14 07:32:02",
+        "updated_at": "2026-05-14 07:32:02"
+      }
+    ],
+    "location": [],
+    "service": [
+      {
+        "id": "13",
+        "name": "Consultation",
+        "description": "",
+        "color": "",
+        "price": 0,
+        "status": "visible",
+        "category_id": 1,
+        "min_capacity": 1,
+        "max_capacity": 1,
+        "duration": 3600,
+        "time_before": 300,
+        "time_after": 300,
+        "bringing_anyone": false,
+        "priority": "least_occupied",
+        "picture_full_path": "",
+        "picture_thumb_path": "",
+        "position": 0,
+        "is_visible": true,
+        "aggregated_price": true,
+        "settings": {
+          "general": {
+            "defaultStatus": "global",
+            "minBookingTime": "disabled",
+            "minCancelTime": "disabled",
+            "minRescheduleTime": "disabled",
+            "bookingAdvancePeriod": 365,
+            "redirectUrl": ""
+          },
+          "paymentMethods": {
+            "stripe": "",
+            "paypal": "",
+            "offline": 1
+          },
+          "integrations": {
+            "googleCalender": "",
+            "googleMeet": "",
+            "zoom": ""
+          }
+        },
+        "recurring_cycle": "disabled",
+        "recurring_sub": "future",
+        "recurring_payment": 0,
+        "deposit_payment": false,
+        "deposit_type": "fixed",
+        "deposit_per_person": false,
+        "deposit": 0,
+        "full_payment": true,
+        "mandatory_extra": false,
+        "min_selected_extras": 0,
+        "custom_pricing": "",
+        "max_extra_people": 0,
+        "limit_per_customer": null,
+        "translations": null,
+        "listing_id": 0,
+        "source_type": "classified_listing_default",
+        "created_at": "2026-05-14 07:19:00",
+        "updated_at": "2026-05-20 12:39:48"
+      }
+    ],
+    "staff": [
+      {
+        "id": "1",
+        "user_type": "employee",
+        "email": "dev-email@wpengine.local",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-13 06:40:11",
+        "updated_at": "2026-05-13 06:40:11",
+        "profile": {
+          "user_id": "1",
+          "wp_user_id": "1",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "Robart",
+          "last_name": "Lofy",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-13 06:40:11",
+          "updated_at": "2026-05-13 06:40:11"
+        },
+        "services": [],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "2",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-13 06:43:46",
+        "updated_at": "2026-05-13 06:43:46",
+        "profile": {
+          "user_id": "2",
+          "wp_user_id": "2",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "Alina",
+          "last_name": "Fraser",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-13 06:43:46",
+          "updated_at": "2026-05-13 06:43:46"
+        },
+        "services": [
+          {
+            "user_id": "2",
+            "service_id": "1",
+            "price": 20,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 06:43:46",
+            "updated_at": "2026-05-13 06:43:46"
+          },
+          {
+            "user_id": "2",
+            "service_id": "2",
+            "price": 50,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 06:50:24",
+            "updated_at": "2026-05-13 06:50:24"
+          },
+          {
+            "user_id": "2",
+            "service_id": "3",
+            "price": 30,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 06:51:47",
+            "updated_at": "2026-05-13 06:51:47"
+          },
+          {
+            "user_id": "2",
+            "service_id": "4",
+            "price": 10,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 06:52:41",
+            "updated_at": "2026-05-13 06:52:41"
+          },
+          {
+            "user_id": "2",
+            "service_id": "5",
+            "price": 15,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 06:54:12",
+            "updated_at": "2026-05-13 06:54:12"
+          },
+          {
+            "user_id": "2",
+            "service_id": "6",
+            "price": 100,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 07:07:47",
+            "updated_at": "2026-05-13 07:07:47"
+          },
+          {
+            "user_id": "2",
+            "service_id": "7",
+            "price": 30,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 07:09:13",
+            "updated_at": "2026-05-13 07:09:13"
+          },
+          {
+            "user_id": "2",
+            "service_id": "8",
+            "price": 40,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 07:10:17",
+            "updated_at": "2026-05-13 07:10:17"
+          },
+          {
+            "user_id": "2",
+            "service_id": "9",
+            "price": 50,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 07:12:29",
+            "updated_at": "2026-05-13 07:12:29"
+          },
+          {
+            "user_id": "2",
+            "service_id": "10",
+            "price": 12,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 07:14:23",
+            "updated_at": "2026-05-13 07:14:23"
+          },
+          {
+            "user_id": "2",
+            "service_id": "11",
+            "price": 15,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-13 07:15:30",
+            "updated_at": "2026-05-13 07:15:30"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "4",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 05:42:06",
+        "updated_at": "2026-05-14 07:19:00",
+        "profile": {
+          "user_id": "4",
+          "wp_user_id": "2",
+          "listing_id": "2849",
+          "source_type": "classified_listing",
+          "first_name": "Dr Louis",
+          "last_name": "Stewart",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 05:42:06",
+          "updated_at": "2026-05-14 05:42:06"
+        },
+        "services": [
+          {
+            "user_id": "4",
+            "service_id": "12",
+            "price": 50,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 05:42:06",
+            "updated_at": "2026-05-14 05:42:06"
+          },
+          {
+            "user_id": "4",
+            "service_id": "13",
+            "price": 50,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:19:00",
+            "updated_at": "2026-05-14 07:19:00"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "5",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:18:46",
+        "updated_at": "2026-05-14 07:21:59",
+        "profile": {
+          "user_id": "5",
+          "wp_user_id": "2",
+          "listing_id": "4935",
+          "source_type": "classified_listing",
+          "first_name": "Jamison",
+          "last_name": "Blake",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:18:46",
+          "updated_at": "2026-05-14 06:18:46"
+        },
+        "services": [
+          {
+            "user_id": "5",
+            "service_id": "12",
+            "price": 20,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:18:46",
+            "updated_at": "2026-05-14 06:18:46"
+          },
+          {
+            "user_id": "5",
+            "service_id": "13",
+            "price": 20,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:21:59",
+            "updated_at": "2026-05-14 07:21:59"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "6",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:19:54",
+        "updated_at": "2026-05-14 07:23:11",
+        "profile": {
+          "user_id": "6",
+          "wp_user_id": "2",
+          "listing_id": "2842",
+          "source_type": "classified_listing",
+          "first_name": "Krish",
+          "last_name": "Wilkins",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:19:54",
+          "updated_at": "2026-05-14 06:19:54"
+        },
+        "services": [
+          {
+            "user_id": "6",
+            "service_id": "12",
+            "price": 30,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:19:54",
+            "updated_at": "2026-05-14 06:19:54"
+          },
+          {
+            "user_id": "6",
+            "service_id": "13",
+            "price": 30,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:23:11",
+            "updated_at": "2026-05-14 07:23:11"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "7",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:20:19",
+        "updated_at": "2026-05-14 07:23:47",
+        "profile": {
+          "user_id": "7",
+          "wp_user_id": "2",
+          "listing_id": "2828",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Isabel",
+          "last_name": "Green",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:20:19",
+          "updated_at": "2026-05-14 06:20:19"
+        },
+        "services": [
+          {
+            "user_id": "7",
+            "service_id": "12",
+            "price": 10,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:20:19",
+            "updated_at": "2026-05-14 06:20:19"
+          },
+          {
+            "user_id": "7",
+            "service_id": "13",
+            "price": 10,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:23:47",
+            "updated_at": "2026-05-14 07:23:47"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "8",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:20:41",
+        "updated_at": "2026-05-14 07:25:02",
+        "profile": {
+          "user_id": "8",
+          "wp_user_id": "2",
+          "listing_id": "2813",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Dianne",
+          "last_name": "Russell",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:20:41",
+          "updated_at": "2026-05-14 06:20:41"
+        },
+        "services": [
+          {
+            "user_id": "8",
+            "service_id": "12",
+            "price": 15,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:20:41",
+            "updated_at": "2026-05-14 06:20:41"
+          },
+          {
+            "user_id": "8",
+            "service_id": "13",
+            "price": 15,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:25:02",
+            "updated_at": "2026-05-14 07:25:02"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "10",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:26:42",
+        "updated_at": "2026-05-14 07:25:35",
+        "profile": {
+          "user_id": "10",
+          "wp_user_id": "2",
+          "listing_id": "2199",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Marvin",
+          "last_name": "McKinney",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:26:42",
+          "updated_at": "2026-05-14 06:26:42"
+        },
+        "services": [
+          {
+            "user_id": "10",
+            "service_id": "12",
+            "price": 100,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:26:42",
+            "updated_at": "2026-05-14 06:26:42"
+          },
+          {
+            "user_id": "10",
+            "service_id": "13",
+            "price": 100,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:25:35",
+            "updated_at": "2026-05-14 07:25:35"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "11",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:26:56",
+        "updated_at": "2026-05-14 07:26:34",
+        "profile": {
+          "user_id": "11",
+          "wp_user_id": "2",
+          "listing_id": "710",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Savannah",
+          "last_name": "Nguyen",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:26:56",
+          "updated_at": "2026-05-14 06:26:56"
+        },
+        "services": [
+          {
+            "user_id": "11",
+            "service_id": "12",
+            "price": 30,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:26:56",
+            "updated_at": "2026-05-14 06:26:56"
+          },
+          {
+            "user_id": "11",
+            "service_id": "13",
+            "price": 30,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:26:34",
+            "updated_at": "2026-05-14 07:26:34"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "12",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:27:22",
+        "updated_at": "2026-05-14 07:26:49",
+        "profile": {
+          "user_id": "12",
+          "wp_user_id": "2",
+          "listing_id": "590",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Brook",
+          "last_name": "Simmons",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:27:22",
+          "updated_at": "2026-05-14 06:27:22"
+        },
+        "services": [
+          {
+            "user_id": "12",
+            "service_id": "12",
+            "price": 40,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:27:22",
+            "updated_at": "2026-05-14 06:27:22"
+          },
+          {
+            "user_id": "12",
+            "service_id": "13",
+            "price": 40,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:26:49",
+            "updated_at": "2026-05-14 07:26:49"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "13",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:27:49",
+        "updated_at": "2026-05-14 07:27:08",
+        "profile": {
+          "user_id": "13",
+          "wp_user_id": "2",
+          "listing_id": "156",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Darrell",
+          "last_name": "Steward",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:27:49",
+          "updated_at": "2026-05-14 06:27:49"
+        },
+        "services": [
+          {
+            "user_id": "13",
+            "service_id": "12",
+            "price": 50,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:27:49",
+            "updated_at": "2026-05-14 06:27:49"
+          },
+          {
+            "user_id": "13",
+            "service_id": "13",
+            "price": 50,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:27:08",
+            "updated_at": "2026-05-14 07:27:08"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "14",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:28:09",
+        "updated_at": "2026-05-14 07:27:47",
+        "profile": {
+          "user_id": "14",
+          "wp_user_id": "2",
+          "listing_id": "139",
+          "source_type": "classified_listing",
+          "first_name": "Dr.Ralph",
+          "last_name": "Edwards",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:28:09",
+          "updated_at": "2026-05-14 06:28:09"
+        },
+        "services": [
+          {
+            "user_id": "14",
+            "service_id": "12",
+            "price": 12,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:28:09",
+            "updated_at": "2026-05-14 06:28:09"
+          },
+          {
+            "user_id": "14",
+            "service_id": "13",
+            "price": 12,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:27:47",
+            "updated_at": "2026-05-14 07:27:47"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      },
+      {
+        "id": "15",
+        "user_type": "employee",
+        "email": "alina_cldoctor@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:28:37",
+        "updated_at": "2026-05-14 07:28:22",
+        "profile": {
+          "user_id": "15",
+          "wp_user_id": "2",
+          "listing_id": "136",
+          "source_type": "classified_listing",
+          "first_name": "Dr. Darlena",
+          "last_name": "Robertson",
+          "phone": null,
+          "image_id": "0",
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:28:37",
+          "updated_at": "2026-05-14 06:28:37"
+        },
+        "services": [
+          {
+            "user_id": "15",
+            "service_id": "12",
+            "price": 15,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 06:28:37",
+            "updated_at": "2026-05-14 06:28:37"
+          },
+          {
+            "user_id": "15",
+            "service_id": "13",
+            "price": 15,
+            "min_capacity": 1,
+            "max_capacity": 1,
+            "custom_pricing": null,
+            "created_at": "2026-05-14 07:28:22",
+            "updated_at": "2026-05-14 07:28:22"
+          }
+        ],
+        "days_off": [],
+        "weekdays": [],
+        "special_days": []
+      }
+    ],
+    "customer": [
+      {
+        "id": "3",
+        "user_type": "customer",
+        "email": "techlabpro302@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-13 06:51:12",
+        "updated_at": "2026-05-13 06:51:12",
+        "profile": {
+          "user_id": "3",
+          "wp_user_id": "20",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "Md",
+          "last_name": "Abdul Malek",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-13 06:51:12",
+          "updated_at": "2026-05-13 06:51:12"
+        }
+      },
+      {
+        "id": "9",
+        "user_type": "customer",
+        "email": "kayla@martin.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-14 06:25:32",
+        "updated_at": "2026-05-14 06:25:32",
+        "profile": {
+          "user_id": "9",
+          "wp_user_id": "21",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "Kayla",
+          "last_name": "Martin",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-14 06:25:32",
+          "updated_at": "2026-05-14 06:25:32"
+        }
+      },
+      {
+        "id": "16",
+        "user_type": "customer",
+        "email": "safsad@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-19 10:29:26",
+        "updated_at": "2026-05-19 10:29:26",
+        "profile": {
+          "user_id": "16",
+          "wp_user_id": "22",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "Jack",
+          "last_name": "",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-19 10:29:26",
+          "updated_at": "2026-05-19 10:29:26"
+        }
+      },
+      {
+        "id": "17",
+        "user_type": "customer",
+        "email": "jack@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-19 10:32:28",
+        "updated_at": "2026-05-19 10:32:28",
+        "profile": {
+          "user_id": "17",
+          "wp_user_id": "23",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "Jack",
+          "last_name": "",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-19 10:32:28",
+          "updated_at": "2026-05-19 10:32:28"
+        }
+      },
+      {
+        "id": "18",
+        "user_type": "customer",
+        "email": "stanleypadron6388@gmail.com",
+        "status": "active",
+        "created_by": null,
+        "created_at": "2026-05-19 15:41:42",
+        "updated_at": "2026-05-19 15:41:42",
+        "profile": {
+          "user_id": "18",
+          "wp_user_id": "24",
+          "listing_id": null,
+          "source_type": "manual",
+          "first_name": "javier",
+          "last_name": "",
+          "phone": null,
+          "image_id": null,
+          "gender": "",
+          "time_zone": null,
+          "note": null,
+          "badge_id": null,
+          "location_id": null,
+          "translations": null,
+          "created_at": "2026-05-19 15:41:42",
+          "updated_at": "2026-05-19 15:41:42"
+        }
+      }
+    ],
+    "appointment": [
+      {
+        "id": "1",
+        "employee_id": 2,
+        "service_id": 2,
+        "appointment_date": "2026-05-21",
+        "start_time": "10:00:00",
+        "end_time": "11:00:00",
+        "status": "confirmed",
+        "location_id": null,
+        "notify_customer": "1",
+        "notes": "",
+        "cancellation_reason": null,
+        "parent_id": null,
+        "booking_type": "service_booking",
+        "meeting_type_id": 0,
+        "event_id": 0,
+        "created_at": "2026-05-13 06:51:12",
+        "updated_at": "2026-05-14 06:26:03",
+        "deleted_at": null,
+        "bookings": [
+          {
+            "appointment_id": "1",
+            "customer_id": "3",
+            "status": "confirmed",
+            "price": "50",
+            "persons": "0",
+            "coupon_id": null,
+            "token": "qye3qksRZq",
+            "customer_info": {
+              "first_name": "Md",
+              "last_name": "Abdul Malek",
+              "email": "techlabpro302@gmail.com"
+            },
+            "custom_info": [],
+            "utc_offset": "0",
+            "duration": "3600",
+            "dynamic_pricing": null,
+            "created_at": "2026-05-13 06:51:12",
+            "updated_at": "2026-05-13 06:51:12",
+            "payment": {
+              "booking_id": "1",
+              "customer_id": "3",
+              "transaction_id": "",
+              "payment_method": "offline",
+              "amount": "0",
+              "total_amount": "50",
+              "due_amount": "50",
+              "status": "pending",
+              "booking_date_time": "2026-05-21 10:00:00",
+              "parent_id": null,
+              "booking_type": "service",
+              "invoice_id": null,
+              "paid_at": null,
+              "cancelled_at": null,
+              "coupon_id": null,
+              "coupon_code": null,
+              "discount_amount": "0",
+              "tax_rate": "0",
+              "tax_amount": "0",
+              "commission_rate": null,
+              "commission_type": null,
+              "created_at": "2026-05-13 06:51:12",
+              "updated_at": "2026-05-13 06:51:12"
+            }
+          }
+        ],
+        "integrations": []
+      },
+      {
+        "id": "2",
+        "employee_id": 5,
+        "service_id": 12,
+        "appointment_date": "2026-05-28",
+        "start_time": "18:00:00",
+        "end_time": "19:00:00",
+        "status": "pending",
+        "location_id": null,
+        "notify_customer": "1",
+        "notes": "",
+        "cancellation_reason": null,
+        "parent_id": null,
+        "booking_type": "service_booking",
+        "meeting_type_id": 0,
+        "event_id": 0,
+        "created_at": "2026-05-14 06:25:32",
+        "updated_at": "2026-05-14 06:25:32",
+        "deleted_at": null,
+        "bookings": [
+          {
+            "appointment_id": "2",
+            "customer_id": "9",
+            "status": "confirmed",
+            "price": "20",
+            "persons": "0",
+            "coupon_id": null,
+            "token": "XdfrKo2eTV",
+            "customer_info": {
+              "first_name": "Kayla",
+              "last_name": "Martin",
+              "email": "kayla@martin.com"
+            },
+            "custom_info": [],
+            "utc_offset": "0",
+            "duration": "3600",
+            "dynamic_pricing": null,
+            "created_at": "2026-05-14 06:25:32",
+            "updated_at": "2026-05-14 06:25:32",
+            "payment": {
+              "booking_id": "2",
+              "customer_id": "9",
+              "transaction_id": "",
+              "payment_method": "offline",
+              "amount": "0",
+              "total_amount": "20",
+              "due_amount": "20",
+              "status": "pending",
+              "booking_date_time": "2026-05-28 18:00:00",
+              "parent_id": null,
+              "booking_type": "service",
+              "invoice_id": null,
+              "paid_at": null,
+              "cancelled_at": null,
+              "coupon_id": null,
+              "coupon_code": null,
+              "discount_amount": "0",
+              "tax_rate": "0",
+              "tax_amount": "0",
+              "commission_rate": null,
+              "commission_type": null,
+              "created_at": "2026-05-14 06:25:32",
+              "updated_at": "2026-05-14 06:25:32"
+            }
+          }
+        ],
+        "integrations": []
+      },
+      {
+        "id": "3",
+        "employee_id": 11,
+        "service_id": 13,
+        "appointment_date": "2026-05-30",
+        "start_time": "14:55:00",
+        "end_time": "15:55:00",
+        "status": "pending",
+        "location_id": null,
+        "notify_customer": "1",
+        "notes": "",
+        "cancellation_reason": null,
+        "parent_id": null,
+        "booking_type": "service_booking",
+        "meeting_type_id": 0,
+        "event_id": 0,
+        "created_at": "2026-05-19 10:29:26",
+        "updated_at": "2026-05-19 10:29:26",
+        "deleted_at": null,
+        "bookings": [
+          {
+            "appointment_id": "3",
+            "customer_id": "16",
+            "status": "confirmed",
+            "price": "30",
+            "persons": "0",
+            "coupon_id": null,
+            "token": "rF8uKkRZMX",
+            "customer_info": {
+              "first_name": "Jack",
+              "last_name": "",
+              "email": "safsad@gmail.com"
+            },
+            "custom_info": [],
+            "utc_offset": "0",
+            "duration": "3600",
+            "dynamic_pricing": null,
+            "created_at": "2026-05-19 10:29:26",
+            "updated_at": "2026-05-19 10:29:26",
+            "payment": {
+              "booking_id": "3",
+              "customer_id": "16",
+              "transaction_id": "",
+              "payment_method": "offline",
+              "amount": "0",
+              "total_amount": "30",
+              "due_amount": "30",
+              "status": "pending",
+              "booking_date_time": "2026-05-30 14:55:00",
+              "parent_id": null,
+              "booking_type": "service",
+              "invoice_id": null,
+              "paid_at": null,
+              "cancelled_at": null,
+              "coupon_id": null,
+              "coupon_code": null,
+              "discount_amount": "0",
+              "tax_rate": "0",
+              "tax_amount": "0",
+              "commission_rate": null,
+              "commission_type": null,
+              "created_at": "2026-05-19 10:29:26",
+              "updated_at": "2026-05-19 10:29:26"
+            }
+          }
+        ],
+        "integrations": []
+      },
+      {
+        "id": "4",
+        "employee_id": 11,
+        "service_id": 13,
+        "appointment_date": "2026-05-21",
+        "start_time": "20:45:00",
+        "end_time": "21:45:00",
+        "status": "pending",
+        "location_id": null,
+        "notify_customer": "1",
+        "notes": "",
+        "cancellation_reason": null,
+        "parent_id": null,
+        "booking_type": "service_booking",
+        "meeting_type_id": 0,
+        "event_id": 0,
+        "created_at": "2026-05-19 10:32:28",
+        "updated_at": "2026-05-19 10:32:28",
+        "deleted_at": null,
+        "bookings": [
+          {
+            "appointment_id": "4",
+            "customer_id": "17",
+            "status": "confirmed",
+            "price": "30",
+            "persons": "0",
+            "coupon_id": null,
+            "token": "v0u7Lw81KH",
+            "customer_info": {
+              "first_name": "Jack",
+              "last_name": "",
+              "email": "jack@gmail.com"
+            },
+            "custom_info": [],
+            "utc_offset": "0",
+            "duration": "3600",
+            "dynamic_pricing": null,
+            "created_at": "2026-05-19 10:32:28",
+            "updated_at": "2026-05-19 10:32:28",
+            "payment": {
+              "booking_id": "4",
+              "customer_id": "17",
+              "transaction_id": "",
+              "payment_method": "offline",
+              "amount": "0",
+              "total_amount": "30",
+              "due_amount": "30",
+              "status": "pending",
+              "booking_date_time": "2026-05-21 20:45:00",
+              "parent_id": null,
+              "booking_type": "service",
+              "invoice_id": null,
+              "paid_at": null,
+              "cancelled_at": null,
+              "coupon_id": null,
+              "coupon_code": null,
+              "discount_amount": "0",
+              "tax_rate": "0",
+              "tax_amount": "0",
+              "commission_rate": null,
+              "commission_type": null,
+              "created_at": "2026-05-19 10:32:28",
+              "updated_at": "2026-05-19 10:32:28"
+            }
+          }
+        ],
+        "integrations": []
+      },
+      {
+        "id": "5",
+        "employee_id": 4,
+        "service_id": 13,
+        "appointment_date": "2026-05-20",
+        "start_time": "09:05:00",
+        "end_time": "10:05:00",
+        "status": "pending",
+        "location_id": null,
+        "notify_customer": "1",
+        "notes": "nota adiciona",
+        "cancellation_reason": null,
+        "parent_id": null,
+        "booking_type": "service_booking",
+        "meeting_type_id": 0,
+        "event_id": 0,
+        "created_at": "2026-05-19 15:41:42",
+        "updated_at": "2026-05-19 15:41:42",
+        "deleted_at": null,
+        "bookings": [
+          {
+            "appointment_id": "5",
+            "customer_id": "18",
+            "status": "confirmed",
+            "price": "50",
+            "persons": "0",
+            "coupon_id": null,
+            "token": "kpHjgluAqc",
+            "customer_info": {
+              "first_name": "javier",
+              "last_name": "",
+              "email": "stanleypadron6388@gmail.com"
+            },
+            "custom_info": [],
+            "utc_offset": "0",
+            "duration": "3600",
+            "dynamic_pricing": null,
+            "created_at": "2026-05-19 15:41:42",
+            "updated_at": "2026-05-19 15:41:42",
+            "payment": {
+              "booking_id": "5",
+              "customer_id": "18",
+              "transaction_id": "",
+              "payment_method": "offline",
+              "amount": "0",
+              "total_amount": "50",
+              "due_amount": "50",
+              "status": "pending",
+              "booking_date_time": "2026-05-20 09:05:00",
+              "parent_id": null,
+              "booking_type": "service",
+              "invoice_id": null,
+              "paid_at": null,
+              "cancelled_at": null,
+              "coupon_id": null,
+              "coupon_code": null,
+              "discount_amount": "0",
+              "tax_rate": "0",
+              "tax_amount": "0",
+              "commission_rate": null,
+              "commission_type": null,
+              "created_at": "2026-05-19 15:41:42",
+              "updated_at": "2026-05-19 15:41:42"
+            }
+          }
+        ],
+        "integrations": []
+      }
+    ]
+  }
+}
