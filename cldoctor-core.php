@@ -3,7 +3,7 @@
 Plugin Name: Cldoctor Core
 Plugin URI: https://www.radiustheme.com
 Description: This plugin is developed for CLDoctor Theme.
-Version: 2.2.2
+Version: 2.2.3
 Author: RadiusTheme
 Author URI: https://www.radiustheme.com
 Text Domain: cldoctor-core
@@ -19,8 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 use RadiusTheme\Cldoctor\Options;
 
 if ( ! defined( 'CLDOCTOR_CORE' ) ) {
-	$plugin_data = get_file_data( __FILE__, [ 'version' => 'Version' ] );
-	define( 'CLDOCTOR_CORE', $plugin_data['version'] );
+	define( 'CLDOCTOR_CORE', '2.2.3' );
 	define( 'CLDOCTOR_CORE_THEME_PREFIX', 'cldoctor' );
 	define( 'CLDOCTOR_CORE_BASE_URL', plugin_dir_url( __FILE__ ) );
 	define( 'CLDOCTOR_CORE_BASE_DIR', plugin_dir_path( __FILE__ ) );
